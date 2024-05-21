@@ -1,0 +1,21 @@
+@import '../../../styles/_variables'
+@import '../../../styles/_typography'
+.imagesBlock
+    border-radius: 10px
+    position: relative
+    width: 340px
+    height: 340px
+    .image
+        border-radius: 10px
+        width: 100%
+    .text
+        position: absolute
+        left: 0
+        bottom: 10%
+        right: 0
+        margin: auto
+        +typography(24px, 500, map-get($basic, 'white'))
+        text-transform: uppercase
+        display: flex
+        align-items: center
+        justify-content: center

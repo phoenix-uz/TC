@@ -1,0 +1,27 @@
+@import '../../styles/_variables'
+@import '../../styles/_typography'
+.intro
+    display: flex
+    align-items: center
+    width: 100%
+    position: relative
+    .introVideo
+        width: 100%
+        height: 100%
+    .introContainer
+        position: absolute
+        left: 0
+        right: 0
+        margin: auto
+        .introTitle
+            display: flex
+            align-items: center
+            justify-content: center
+            .title
+                +typography(40px, 600, map-get($basic, 'white'))
+                text-align: center
+                line-height: 140%
+                @media screen and (max-width: 650px)
+                    font-size: 32px
+                @media screen and (max-width: 420px)
+                    font-size: 24px

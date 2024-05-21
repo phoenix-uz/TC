@@ -1,0 +1,16 @@
+@import '../../styles/_variables'
+@import '../../styles/_typography'
+.products
+    padding: 80px 0
+    background: map-get($basic, 'white')
+    @media screen and (max-width: 850px)
+        padding: 50px 0
+    .productsContainer
+        .productsTitle
+            margin-bottom: 40px
+            .title
+                +typography(40px, 700, map-get($palete, 'secondary'))
+                @media screen and (max-width: 991px)
+                    font-size: 42px
+                @media screen and (max-width: 420px)
+                    font-size: 32px

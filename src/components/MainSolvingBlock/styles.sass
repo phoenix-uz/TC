@@ -1,0 +1,61 @@
+@import '../../styles/_variables'
+@import '../../styles/_typography'
+.mainSolvingBlock
+    background: map-get($palete, 'grayLight')
+    padding: 50px 0
+    .mainSolvingBlockContainer
+        display: flex
+        width: 100%
+        justify-content: space-between
+        align-items: center
+        column-gap: 50px
+        @media screen and (max-width: 991px)
+            flex-direction: column
+            row-gap: 20px
+        .solvingInfo,
+        .solvingItems
+            width: 100%
+        .solvingInfo
+            display: flex
+            flex-direction: column
+            row-gap: 30px
+            .infoTitle
+                .title
+                    +typography(40px, 700, map-get($palete, 'secondary'))
+            .infoText
+                .text
+                    +typography(16px, 300, map-get($palete, 'textBlack'))
+                    line-height: 28px
+        .solvingItems
+            display: flex
+            flex-direction: column
+            row-gap: 10px
+            .itemContainer
+                display: flex
+                column-gap: 10px
+                @media screen and (max-width: 520px)
+                    flex-direction: column
+                    row-gap: 10px
+                .solvingItemText
+                    background: #E8E8E8
+                    color: map-get($basic, 'black')
+                    border-radius: 6px
+                    padding: 5px 10px
+                    text-align: center
+                    max-width: 290px
+                    width: 100%
+                    display: flex
+                    justify-content: center
+                    transition: all 0.5s ease
+                    cursor: pointer
+                    @media screen and (max-width: 991px)
+                        max-width: 100%
+                    .text
+                        display: flex
+                        align-items: center
+                        transition: all 0.5s ease
+                        +typography(18px, 400, map-get($basic, black))
+                    &:hover
+                        background: map-get($palete, 'primary')
+                        .text
+                            color: map-get($basic, 'white')

@@ -1,0 +1,49 @@
+@import '../../styles/_variables'
+@import '../../styles/_typography'
+.services
+    position: relative
+    padding: 100px 0
+    background: map-get($palete, 'grayLight')
+    @media screen and (max-width: 850px)
+        padding: 50px 0
+    .servicesContainer
+        display: flex
+        justify-content: space-between
+        @media screen and (max-width: 850px)
+            flex-direction: column
+            row-gap: 20px
+        .servicesInfo
+            display: flex
+            flex-direction: column
+            row-gap: 80px
+            width: 50%
+            @media screen and (max-width: 1250px)
+                row-gap: 0
+            @media screen and (max-width: 991px)
+                width: 100%
+            .servicesTitle
+                .title
+                    +typography(40px, 700, map-get($palete, 'secondary'))
+                    text-transform: uppercase
+                    @media screen and (max-width: 991px)
+                        font-size: 42px
+                    @media screen and (max-width: 420px)
+                        font-size: 32px
+            .servicesText
+                .text
+                    +typography(24px, 600, map-get($palete, 'main'))
+                    text-transform: uppercase
+                    @media screen and (max-width: 991px)
+                        font-size: 18px
+            .btn
+                width: 40%
+                @media screen and (max-width: 420px)
+                    width: 100%
+        .servicesImage
+            .img
+                width: 100%
+                filter: grayscale(1)
+                transition: all 0.5s ease
+                cursor: pointer
+                &:hover
+                    filter: none

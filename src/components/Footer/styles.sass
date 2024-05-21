@@ -1,0 +1,54 @@
+@import '../../styles/_variables'
+@import '../../styles/_typography'
+.footer
+    background: map-get($palete, 'secondary')
+    padding: 80px 0 40px 0
+    @media screen and (max-width: 670px)
+        padding: 50px 0
+    .footerContainer
+        display: flex
+        justify-content: space-between
+        @media screen and (max-width: 670px)
+            flex-direction: column
+            align-items: center
+        .footerBtn
+            .btn
+                padding: 10px 60px
+                border-radius: 6px
+        .footerItems
+            display: flex
+            flex-direction: column
+            .itemsTitle
+                @media screen and (max-width: 670px)
+                    text-align: center
+                    margin-top: 10px
+                .title
+                    color: map-get($basic, 'white')
+            .itemsLinks
+                margin-top: 16px
+                display: flex
+                flex-direction: column
+                row-gap: 16px
+                @media screen and (max-width: 670px)
+                    text-align: center
+                .text
+                    color: map-get($basic, 'white')
+                    font-size: 16px
+                .link
+                    color: map-get($basic, 'white')
+                    text-decoration: none
+                    font-size: 16px
+    .rights
+        border-top: 1px solid map-get($basic, 'white')
+        margin: 30px 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        @media screen and (max-width: 670px)
+            flex-direction: column
+        .footerRightText
+            @media screen and (max-width: 670px)
+                text-align: center
+            .text
+                margin-top: 10px
+                color: map-get($basic, 'white')
