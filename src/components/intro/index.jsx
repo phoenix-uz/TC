@@ -15,10 +15,15 @@ const IntroBlock = () => {
         muted
         loop
         className='introVideo'
+        playsInline
       >
         <source
           src='https://cdn.loading-systems.com/sites/default/files/sliders/loading-systems-homepage-video-safety_0.webm'
           type='video/mp4'
+        />
+        <source
+          src='https://cdn.loading-systems.com/sites/default/files/sliders/loading-systems-homepage-video-safety_0.webm'
+          type='video/webm'
         />
       </video>
       <div className='container introContainer'>
