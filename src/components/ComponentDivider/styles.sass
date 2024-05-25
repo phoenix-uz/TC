@@ -1,0 +1,25 @@
+@import '../../styles/_variables'
+@import '../../styles/_typography'
+.componentDivider
+    padding: 50px 0
+    @media screen and (max-width: 850px)
+        padding: 20px 0
+    .componentDividerContainer
+        display: flex
+        justify-content: space-between
+        column-gap: 20px
+        @media screen and (max-width: 850px)
+            flex-direction: column
+            row-gap: 20px
+        .item
+            width: 50%
+            @media screen and (max-width: 850px)
+                width: 100%
+    .flexCol
+        display: flex
+        flex-direction: column
+        row-gap: 20px
+        .item
+            width: 100%
+.bgGray
+    background: map-get($palete, 'grayLight')

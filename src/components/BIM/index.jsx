@@ -36,6 +36,7 @@ const BIM = () => {
         <img
           src='/bimImage.png'
           alt='bimImage'
+          className='img'
         />
       </div>
     </div>

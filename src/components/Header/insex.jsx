@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import NavBar from "../NavBar";
@@ -19,12 +19,12 @@ const Header = ({ bgBlack }) => {
     setBurgerIsOpen(toOpen);
   };
 
-  const location = useRouter();
+  const pathName = usePathname();
 
   return (
     <header
       className={`header  ${burgerIsOpen ? "white" : ""} ${scroll ? "bgBlack" : "bgWhite"} ${
-        location.pathname === "/" ? " " : "bgBlue"
+        pathName === "/" ? " " : "bgBlue"
       }`}
     >
       <div className=' container'>

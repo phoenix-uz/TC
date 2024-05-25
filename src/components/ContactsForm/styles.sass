@@ -21,18 +21,15 @@
         .contactsText
             .contactsTitle
                 .title
-                    font-size: 46px
-                    font-weight: 700
-                    color: #FF0032
+                    +typography(40px, 700, map-get($palete, 'main'))
+                    font-family: 'Gilroy', sans-serif
                     @media screen and (max-width: 991px)
                         font-size: 42px
                     @media screen and (max-width: 520px)
                         font-size: 32px
             .contactsSubtitle
                 .subtitle
-                    font-size: 20px
-                    font-weight: 300
-                    color: #000000
+                    +typography(20px, 300, map-get($palete, 'textBlack'))
                     @media screen and (max-width: 991px)
                         font-size: 18px
         .form

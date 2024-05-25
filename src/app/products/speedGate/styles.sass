@@ -1,0 +1,35 @@
+@import '../../../styles/_variables'
+@import '../../../styles/_typography'
+.pageSpeedGate
+    .componentDivider
+        @media screen and (max-width: 850px)
+            padding: 20px 0
+            .accordionImage
+                img
+                    width: 100%
+            .boxImageContainer
+                img
+                    width: 100%
+        .imageBox
+            display: flex
+            justify-content: flex-end
+            height: 100%
+            @media screen and (max-width: 1250px)
+                img
+                    width: 100%
+        .accordion
+            .accordionBoxInfo
+                margin: 20px 0
+                display: flex
+                align-items: flex-start
+                column-gap: 20px
+                .info
+                    .infoTitle
+                        border-bottom: 1px solid map-get($palete, 'secondaryLight')
+                        .title
+                            font-family: 'Gilroy', sans-serif
+                            +typography(20px, 700, map-get($palete, 'secondary'))
+                            @media screen and (max-width: 420px)
+                                font-size: 16px
+                    .text
+                        border-bottom: 1px solid map-get($palete, 'secondaryLight')

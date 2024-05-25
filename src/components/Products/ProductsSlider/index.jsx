@@ -54,6 +54,8 @@ const ProductsSlider = () => {
                 className='image'
                 src={item.img}
                 alt={item.alt}
+                width={100}
+                height={100}
               />
               <div className='imageText'>
                 <p className='text'>{item.text}</p>

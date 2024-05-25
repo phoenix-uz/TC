@@ -126,11 +126,10 @@
                             padding-top: 40px
                             row-gap: 20px
                             .navLink
+                                font-family: 'Gilroy', sans-serif
                                 +typography(16px, 600, map-get($basic, 'black'))
                                 &:hover
                                     color: map-get($palete, 'primary')
-                @media screen and (max-width: 400px)
-                    width: 70%
                 .nav-box
                     .headerLogo
                         display: none
@@ -161,9 +160,79 @@
                         margin-right: 0
                 &.activeMenu
                     transform: translateX(0)
+                .navItem
+                    display: inline-block
+                    .linkToDropDropdown
+                        display: block
+                        padding: 40px 0
+                        @media screen and (max-width: 850px)
+                            padding: 0
+                    .dropdown
+                        overflow: hidden
+                        visibility: hidden
+                        position: absolute
+                        margin: auto
+                        top: 120%
+                        left: 0
+                        right: 0
+                        z-index: -1
+                        width: 100%
+                        max-height: 0
+                        background-color: #54586f82
+                        box-shadow: 0px 0 7px 1px map-get($basic, 'white')
+                        opacity: 0
+                        transition: opacity .3s, visibility .3s, top .3s
+                        padding: 20px
+                        border-radius: 6px
+                        @media screen and (max-width: 850px)
+                            left: -200%
+                            top: 0
+                        .dropdownBox
+                            display: flex
+                            flex-direction: row
+                            justify-content: space-between
+                            align-items: stretch
+                            max-width: 1440px
+                            width: 100%
+                            margin: 0 auto
+                            @media screen and (max-width: 850px)
+                                flex-direction: column
+                            .linksBox
+                                display: flex
+                                flex-direction: column
+                                row-gap: 10px
+                                .navLink
+                                    margin-top: 10px
+                                    margin-right: 0
+                                    +typography(16px, 500, map-get($basic, 'white'))
+                                    text-transform: uppercase
+                                    text-decoration: none
+                                    display: inline-block
+                                    position: relative
+                                    transition: 0.25s ease-out
+                                    &:hover
+                                        color: map-get($palete, 'primary')
+                                    @media screen and (max-width: 1350px)
+                                        font-size: 14px
+                                    @media screen and (max-width: 991px)
+                                        font-size: 13px
+                                    @media screen and (max-width: 640px)
+                                        font-size: 14px
+                                    @media screen and (max-width: 420px)
+                                        font-size: 8px
+                    &:hover
+                        .dropdown
+                            overflow: visible
+                            visibility: visible
+                            top: 100%
+                            opacity: 1
+                            max-height: none
+                            @media screen and (max-width: 850px)
+                                left: -200%
+                                top: 0
 .bgBlack
     margin-top: 0
-    background: #2c2f34
+    background: #2c2f3487
 .bgBlue
     margin-top: 0
     background: #56586d

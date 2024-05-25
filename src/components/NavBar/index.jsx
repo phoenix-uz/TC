@@ -26,16 +26,122 @@ const NavBar = ({ burgerIsOpen }) => {
             </Link>
             <Link
               className='navLink'
-              href='/solving'
+              href='/solvingPage'
             >
               Решения
             </Link>
-            <Link
-              className='navLink'
-              href='./library'
-            >
-              ПРОДУКТЫ
-            </Link>
+            <div className='navItem'>
+              <span className='navLink linkToDropDropdown'>Продукты</span>
+              <div className='dropdown'>
+                <div className='dropdownBox'>
+                  <div className='linksBox'>
+                    <Link
+                      href='/products/sectionalDoors'
+                      className='navLink'
+                    >
+                      Секционные ворота
+                    </Link>
+                    <Link
+                      href='/products/speedGate'
+                      className='navLink'
+                    >
+                      Cкоростные ворота
+                    </Link>
+                    <Link
+                      href='/products/rollingGates'
+                      className='navLink'
+                    >
+                      Рулонные ворота
+                    </Link>
+                    <Link
+                      href='/products/foldingGates'
+                      className='navLink'
+                    >
+                      Складчатые ворота
+                    </Link>
+                  </div>
+                  <div className='linksBox'>
+                    <Link
+                      href='/products/hangarGates'
+                      className='navLink'
+                    >
+                      Ангарные ворота{" "}
+                    </Link>
+                    <Link
+                      href='/products/'
+                      className='navLink'
+                    >
+                      Подъемные тентовые ворота{" "}
+                    </Link>
+                    <Link
+                      href='/products/tentHangarDoors'
+                      className='navLink'
+                    >
+                      Тентовые ангарные ворота{" "}
+                    </Link>
+                    <Link
+                      href='/products/largeFoldingGates'
+                      className='navLink'
+                    >
+                      Складчатые ангарные ворота{" "}
+                    </Link>
+                  </div>
+                  <div className='linksBox'>
+                    <Link
+                      href='/products/slidingHangarGates'
+                      className='navLink'
+                    >
+                      Откатные ангарные ворота{" "}
+                    </Link>
+                    <Link
+                      href='/products/sectionalAndRoll'
+                      className='navLink'
+                    >
+                      Секционные и рулонные ангарные ворота{" "}
+                    </Link>
+                    <Link
+                      href='/products/mechanicalBridges'
+                      className='navLink'
+                    >
+                      Механические мостики{" "}
+                    </Link>
+                    <Link
+                      href='/products/dockLevelers'
+                      className='navLink'
+                    >
+                      Перегрузочные мосты
+                    </Link>
+                  </div>
+                  <div className='linksBox'>
+                    <Link
+                      href='/products/liftTables'
+                      className='navLink'
+                    >
+                      Подъемные столы{" "}
+                    </Link>
+                    <Link
+                      href='/products/sealers'
+                      className='navLink'
+                    >
+                      Герметизаторы (докшелтеры)
+                    </Link>
+                    <Link
+                      href='/products/accessories'
+                      className='navLink'
+                    >
+                      Аксессуары
+                    </Link>
+                    <Link
+                      href='/products/safetyOnRamp'
+                      className='navLink'
+                    >
+                      Безопасность на рампе{" "}
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <Link
               className='navLink'
               href='./news'

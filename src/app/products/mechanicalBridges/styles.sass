@@ -1,0 +1,22 @@
+@import '../../../styles/_variables'
+@import '../../../styles/_typography'
+.pageMechanicalBridges
+    .accordionImage
+        img
+            width: 100%
+    .boxImageContainer
+        img
+            width: 100%
+    .accordion
+        .accordionBoxInfo
+            margin: 20px 0
+            display: flex
+            align-items: flex-start
+            column-gap: 20px
+            .info
+                .infoTitle
+                    .title
+                        font-family: 'Gilroy', sans-serif
+                        +typography(20px, 700, map-get($palete, 'secondary'))
+                        @media screen and (max-width: 420px)
+                            font-size: 16px

@@ -1,0 +1,33 @@
+@import '../../../styles/_variables'
+@import '../../../styles/_typography'
+.pageRollingGates
+    .componentDivider
+        @media screen and (max-width: 850px)
+            padding: 20px 0
+        .accordionImage
+            img
+                width: 100%
+        .boxImageContainer
+            img
+                width: 100%
+    .componentDividerContainer
+        .buttonBox
+            display: flex
+            flex-direction: column
+            row-gap: 20px
+            @media screen and (max-width: 420px)
+                .btn
+                    width: 100%
+    .imageBox
+        display: flex
+        justify-content: flex-end
+        height: 100%
+        @media screen and (max-width: 1250px)
+            img
+                width: 100%
+    .accordion
+        .accordionContainer
+            .accordionFile
+                display: flex
+                flex-direction: column
+                row-gap: 20px

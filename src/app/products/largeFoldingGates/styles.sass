@@ -1,0 +1,45 @@
+@import '../../../styles/_variables'
+@import '../../../styles/_typography'
+.pageLargeFoldingGates
+    .imageContainer
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: repeat(2, 1fr)
+        grid-column-gap: 25px
+        grid-row-gap: 25px
+        @media screen and (max-width: 850px)
+            grid-template-columns: repeat(2, 1fr)
+            grid-template-rows: repeat(3, 1fr)
+        .firstImageBox
+            grid-area: 1 / 1 / 2 / 2
+            @media screen and (max-width: 850px)
+                grid-area: 1 / 1 / 2 / 2
+        .secondImageBox
+            grid-area: 1 / 2 / 2 / 3
+            @media screen and (max-width: 850px)
+                grid-area: 1 / 2 / 2 / 3
+        .thirdImageBox
+            grid-area: 1 / 3 / 2 / 4
+            @media screen and (max-width: 850px)
+                grid-area: 2 / 1 / 3 / 2
+        .forthImageBox
+            grid-area: 2 / 1 / 3 / 2
+            @media screen and (max-width: 850px)
+                grid-area: 2 / 2 / 3 / 3
+        .fifthImageBox
+            grid-area: 2 / 2 / 3 / 3
+            @media screen and (max-width: 850px)
+                grid-area: 3 / 1 / 4 / 2
+        .sixthImageBox
+            grid-area: 2 / 3 / 3 / 4
+            @media screen and (max-width: 850px)
+                grid-area: 3 / 2 / 4 / 3
+        .firstImageBox,
+        .secondImageBox,
+        .thirdImageBox,
+        .forthImageBox,
+        .fifthImageBox,
+        .sixthImageBox
+            .img
+                width: 100%
+                border-radius: 10px

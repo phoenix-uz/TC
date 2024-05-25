@@ -1,0 +1,71 @@
+@import '../../styles/_variables'
+@import '../../styles/_typography'
+.solvingPage
+    .pageContainer
+        .w-50
+            width: 50%
+            @media screen and (max-width: 850px)
+                width: 100%
+        .item
+            .itemBox
+                display: flex
+                flex-direction: column
+                row-gap: 30px
+                .infoText
+                    ul
+                        list-style-type: none
+                    li
+                        position: relative
+                        &::before
+                            content: ""
+                            position: absolute
+                            left: 0
+                            top: 50%
+                            transform: translateY(-50%)
+                            width: 20px
+                            height: 20px
+                            background-color: transparent
+                        &::after
+                            content: "\2713"
+                            position: absolute
+                            left: -25px
+                            top: 50%
+                            transform: translateY(-50%)
+                            font-size: 20px
+                            color: red
+            .itemContainer
+                display: flex
+                column-gap: 20px
+                justify-content: space-between
+                margin: 20px 0
+                @media screen and (max-width: 850px)
+                    flex-direction: column
+                    row-gap: 20px
+                .itemBoxCol
+                    row-gap: 0
+                    justify-content: center
+                    width: 50%
+                    align-items: center
+                    @media screen and (max-width: 850px)
+                        align-items: start
+                        width: 100%
+                .w-50
+                    width: 50%
+                    row-gap: 0
+                    @media screen and (max-width: 850px)
+                        width: 100%
+                .rowGap
+                    row-gap: 10px
+                    .itemContentImage
+                        display: flex
+                        justify-content: center
+            .imageContainer
+                display: flex
+                justify-content: space-between
+                align-items: center
+                @media screen and (max-width: 850px)
+                    flex-wrap: wrap
+                    row-gap: 20px
+                    justify-content: center
+            @media screen and (max-width: 850px)
+                width: 100%
