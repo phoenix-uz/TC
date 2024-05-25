@@ -1,6 +1,7 @@
 import ComponentDivider from "@/components/ComponentDivider";
 import React from "react";
 import "./styles.sass";
+import Image from "next/image";
 
 const PageSectionalAndRoll = () => {
   return (
@@ -31,21 +32,27 @@ const PageSectionalAndRoll = () => {
             </div>
             <div className='imageContainer'>
               <div className='firstImageBox'>
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/imageFirst.png'
                   className='img'
                   alt='imageFirst'
                 />
               </div>
               <div className='secondImageBox'>
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/imageSecond.png'
                   className='img'
                   alt='imageSecond'
                 />
               </div>
               <div className='thirdImageBox'>
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/imageThird.png'
                   className='img'
                   alt='imageThird'
@@ -62,21 +69,27 @@ const PageSectionalAndRoll = () => {
             </div>
             <div className='imageContainer'>
               <div className='firstImageBox'>
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/imageFirst.png'
                   className='img'
                   alt='imageFirst'
                 />
               </div>
               <div className='secondImageBox'>
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/imageSecond.png'
                   className='img'
                   alt='imageSecond'
                 />
               </div>
               <div className='thirdImageBox'>
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/imageThird.png'
                   className='img'
                   alt='imageThird'

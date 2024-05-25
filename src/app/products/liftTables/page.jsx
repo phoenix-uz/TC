@@ -4,6 +4,7 @@ import React from "react";
 import "./styles.sass";
 import ComponentAccordion from "@/components/UI/ComponentAccordion";
 import Button from "@/components/UI/Button";
+import Image from "next/image";
 
 const LiftTables = () => {
   const handleDownloadSectionalDoorN = () => {
@@ -68,10 +69,12 @@ const LiftTables = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/quaolityAndSafe.png'
                 alt='quaolityAndSafe'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -107,7 +110,9 @@ const LiftTables = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/durability.png'
                 alt='durability'
                 className='img'
@@ -135,7 +140,9 @@ const LiftTables = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/Scissor.png'
                 alt='Scissor'
                 className='img'

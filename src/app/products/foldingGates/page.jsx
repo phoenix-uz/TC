@@ -3,6 +3,7 @@ import ComponentDivider from "@/components/ComponentDivider";
 import React from "react";
 import "./styles.sass";
 import Button from "@/components/UI/Button";
+import Image from "next/image";
 
 const FoldingGates = () => {
   const handleFoldingGates = () => {
@@ -42,35 +43,45 @@ const FoldingGates = () => {
               </div>
               <div className='foldingGatesImagesBox'>
                 <div className='foldingGatesImagesBoxContainer'>
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     src='/foldingGates1.png'
                     alt='foldingGates'
                     className='img'
                   />
                 </div>
                 <div className='foldingGatesImagesBoxContainer'>
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     src='/foldingGates2.png'
                     alt='foldingGates'
                     className='img'
                   />
                 </div>
                 <div className='foldingGatesImagesBoxContainer'>
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     src='/foldingGates3.png'
                     alt='foldingGates'
                     className='img'
                   />
                 </div>
                 <div className='foldingGatesImagesBoxContainer'>
-                  <img
+                  <Image
                     src='/foldingGates4.png'
                     alt='foldingGates'
                     className='img'
+                    width={100}
+                    height={100}
                   />
                 </div>
                 <div className='foldingGatesImagesBoxContainer'>
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     src='/foldingGates5.png'
                     alt='foldingGates'
                     className='img'

@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles.sass";
+import Image from "next/image";
 
 const ComponentAboutPage = ({ grayBg, title, firstText, secondText, thirdText, forthText, image }) => {
   useEffect(() => {

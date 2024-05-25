@@ -2,6 +2,7 @@ import ComponentDivider from "@/components/ComponentDivider";
 import React from "react";
 import "./styles.sass";
 import ComponentAccordion from "@/components/UI/ComponentAccordion";
+import Image from "next/image";
 
 const HangarGates = () => {
   return (
@@ -53,10 +54,12 @@ const HangarGates = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
                 src='/liftingAwningGates.png'
                 alt='liftingAwningGates'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -70,7 +73,7 @@ const HangarGates = () => {
                     <p className='text'>
                       Полотно ангарных ворот представляет собой два слоя усиленного полиэстера (900-1500 г/м2) с
                       виниловым покрытием. Эти слои крепятся на горизонтальных промежуточных профилях и, открываясь,
-                      складываются в противоположные стороны.{" "}
+                      складываются в противоположные стороны.
                     </p>
                     <p className='text'>
                       Промежуточные профили имеют шаг от 600 до 2200 мм и ширину от 100 до 2500 мм, в зависимости от
@@ -89,10 +92,12 @@ const HangarGates = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
                       src='/canvas.png'
                       alt='canvas'
                       className='img'
+                      width={100}
+                      height={100}
                     />
                   </div>
                 </div>
@@ -113,10 +118,12 @@ const HangarGates = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
                       src='/sideGuides.png'
                       alt='sideGuides'
                       className='img'
+                      width={100}
+                      height={100}
                     />
                   </div>
                 </div>
@@ -139,10 +146,12 @@ const HangarGates = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
                       src='/intermediateLiftingSupports.png'
                       alt='intermediateLiftingSupports'
                       className='img'
+                      width={100}
+                      height={100}
                     />
                   </div>
                 </div>
@@ -161,10 +170,12 @@ const HangarGates = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
                       src='/thermalInsulation.png'
                       alt='thermalInsulation'
                       className='img'
+                      width={100}
+                      height={100}
                     />
                   </div>
                 </div>
@@ -187,10 +198,12 @@ const HangarGates = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
                       src='/electricDrivesAndLimitDrives.png'
                       alt='electricDrivesAndLimitDrives '
                       className='img'
+                      width={100}
+                      height={100}
                     />
                   </div>
                 </div>
@@ -243,12 +256,13 @@ const HangarGates = () => {
                       технического обслуживания после определенного числа циклов или в случае нештатных ситуаций.
                     </p>
                     <p className='text'>
-                      Обычно ворота поставляются с системой управления "на удержании", где кнопка "ВНИЗ" должна быть
-                      удерживаема во время опускания ворот (при отпускании кнопки ворота немедленно останавливаются).
-                      Кнопка "ВВЕРХ" работает в импульсном режиме, достаточно ее однократного нажатия для полного
-                      открытия ворот. Кнопка "СТОП" останавливает ворота в любом положении. Маленькие ворота для ангаров
-                      могут быть дополнительно оборудованы контактной кромкой безопасности, позволяющей управлять
-                      воротами в импульсном режиме в любом направлении движения.
+                      Обычно ворота поставляются с системой управления `&quot`на удержании`&quot`, где кнопка
+                      `&quot`НИЗ`&quot` должна быть удерживаема во время опускания ворот (при отпускании кнопки ворота
+                      немедленно останавливаются). Кнопка `&quot`ВВЕРХ`&quot` работает в импульсном режиме, достаточно
+                      ее однократного нажатия для полного открытия ворот. Кнопка `&quot`СТОП`&quot` останавливает ворота
+                      в любом положении. Маленькие ворота для ангаров могут быть дополнительно оборудованы контактной
+                      кромкой безопасности, позволяющей управлять воротами в импульсном режиме в любом направлении
+                      движения.
                     </p>
                   </div>
                 </div>

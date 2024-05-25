@@ -5,6 +5,7 @@ import Button from "../UI/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles.sass";
+import Image from "next/image";
 
 const BIM = () => {
   useEffect(() => {
@@ -33,7 +34,9 @@ const BIM = () => {
         className='bimImage'
         data-aos='zoom-in-left'
       >
-        <img
+        <Image
+          width={100}
+          height={100}
           src='/bimImage.png'
           alt='bimImage'
           className='img'

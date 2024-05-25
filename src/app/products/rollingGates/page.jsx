@@ -3,6 +3,7 @@ import ComponentDivider from "@/components/ComponentDivider";
 import Button from "@/components/UI/Button";
 import React from "react";
 import "./styles.sass";
+import Image from "next/image";
 const RollingGates = () => {
   const handleFoldingGatesCatalog = () => {
     const link = document.createElement("a");
@@ -58,7 +59,9 @@ const RollingGates = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/rollingGates.png'
                 alt='rollingGates'
                 className='img'
@@ -118,7 +121,9 @@ const RollingGates = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tests.png'
                 alt='tests'
                 className='img'
@@ -143,7 +148,9 @@ const RollingGates = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/quality.png'
                 alt='quality'
                 className='img'
@@ -200,7 +207,9 @@ const RollingGates = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+              width={100}
+              height={100}
                 src='/collected.png'
                 alt='collected'
                 className='img'

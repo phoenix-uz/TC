@@ -4,6 +4,7 @@ import ComponentDivider from "@/components/ComponentDivider";
 import ComponentAccordion from "@/components/UI/ComponentAccordion";
 import Button from "@/components/UI/Button";
 import "./styles.sass";
+import Image from "next/image";
 
 const PageSectionalDoors = () => {
   const handleDownloadSectionalDoors = () => {
@@ -35,7 +36,7 @@ const PageSectionalDoors = () => {
                 <p className='text'>
                   Loading Systems PowerDoor - это высококачественные секционные ворота, спроектированные для
                   интенсивного промышленного использования. При открывании ворот панели двигаются под потолком или
-                  вертикально вдоль стен склада, минимизируя занимаемое пространство.{" "}
+                  вертикально вдоль стен склада, минимизируя занимаемое пространство.
                 </p>
                 <p className='text'>
                   Конструкция ворот обеспечивает оптимальную защиту от повреждений и максимальное использование
@@ -49,7 +50,9 @@ const PageSectionalDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/SectionalDoors.png'
                 alt='SectionalDoors'
                 className='img'
@@ -107,7 +110,9 @@ const PageSectionalDoors = () => {
                     </p>
                   </div>
                   <div className='accordionImage'>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       src='/exteriorFinishing.png'
                       alt='exteriorFinishing'
                       className='img'
@@ -193,7 +198,9 @@ const PageSectionalDoors = () => {
           <div className='item'>
             <div className='boxContainer'>
               <div className='boxImageContainer'>
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/gatesWithFullGlazing.png'
                   alt='gatesWithFullGlazing'
                   className='img'
@@ -323,11 +330,12 @@ const PageSectionalDoors = () => {
                         электрическое управление. Управление цепью доступно с передачей 1:3 и 1:4.
                       </li>
                       <li>
-                        Электрическое управление: осуществляется с помощью двух кнопок "Вверх-Вниз" и аварийной
-                        остановки. Модульная концепция блока управления позволяет расширять функциональность PowerDoor
-                        различными вставными модулями, включая дистанционное управление, автоматическое закрытие,
-                        инфракрасные датчики и другие. При электрическом управлении двигатели оборудованы системой
-                        аварийного управления, гарантирующей открытие или закрытие ворот при отключении электропитания.
+                        Электрическое управление: осуществляется с помощью двух кнопок `&quot`Вверх-Вниз`&quot` и
+                        аварийной остановки. Модульная концепция блока управления позволяет расширять функциональность
+                        PowerDoor различными вставными модулями, включая дистанционное управление, автоматическое
+                        закрытие, инфракрасные датчики и другие. При электрическом управлении двигатели оборудованы
+                        системой аварийного управления, гарантирующей открытие или закрытие ворот при отключении
+                        электропитания.
                       </li>
                     </ul>
                     <p className='text'>
@@ -337,7 +345,9 @@ const PageSectionalDoors = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       src='/control.png'
                       alt='control'
                       className='img'
@@ -445,7 +455,9 @@ const PageSectionalDoors = () => {
               <ComponentAccordion accordionTitle='Стандартные цвета панелей без защиты от защемления пальцев'>
                 <div className='accordionContainer'>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       src='/withSecurity.png'
                       alt='withSecurity'
                       className='img'
@@ -460,7 +472,9 @@ const PageSectionalDoors = () => {
               <ComponentAccordion accordionTitle='Стандартные цвета панелей с защитой от защемления пальцев'>
                 <div className='accordionContainer'>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       src='/withoutSecurity.png'
                       alt='withoutSecurity'
                       className='img'

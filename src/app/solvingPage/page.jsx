@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles.sass";
+import Image from "next/image";
 
 const SolvingPage = () => {
   useEffect(() => {
@@ -113,7 +114,9 @@ const SolvingPage = () => {
                 className='itemBox itemBoxCol'
                 data-aos='flip-right'
               >
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/stockImage.png'
                   alt=''
                   className='imageReverse'
@@ -177,7 +180,9 @@ const SolvingPage = () => {
                 className='itemBox itemBoxCol'
                 data-aos='flip-right'
               >
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/stockImage.png'
                   alt=''
                   className='imageReverse'
@@ -243,7 +248,9 @@ const SolvingPage = () => {
                 className='itemBox itemBoxCol'
                 data-aos='flip-right'
               >
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/car.png'
                   alt=''
                   className='imageReverse'
@@ -292,7 +299,9 @@ const SolvingPage = () => {
                 className='itemBox itemBoxCol'
                 data-aos='flip-right'
               >
-                <img
+                <image
+                  width={100}
+                  height={100}
                   src='/bmwImage.png'
                   alt=''
                   className='imageReverse'
@@ -316,9 +325,9 @@ const SolvingPage = () => {
                     className='text'
                     data-aos='zoom-in-up'
                   >
-                    Секционные ворота "Full Vision" — популярное решение для дилерских центров. С разнообразием
-                    вариантов исполнения мы можем подобрать для вас наиболее подходящее решение с учетом ваших
-                    индивидуальных требований. Алюминиевые секции двери могут быть окрашены в разные цвета.
+                    Секционные ворота `&quot`Full Vision`&quot` — популярное решение для дилерских центров. С
+                    разнообразием вариантов исполнения мы можем подобрать для вас наиболее подходящее решение с учетом
+                    ваших индивидуальных требований. Алюминиевые секции двери могут быть окрашены в разные цвета.
                   </p>
                 </div>
               </div>
@@ -336,9 +345,10 @@ const SolvingPage = () => {
                     className='text'
                     data-aos='zoom-in-up'
                   >
-                    В автомобильной промышленности растет спрос на экологичные решения. Секционные ворота "Full Vision"
-                    от Loading Systems изготовлены из самых высококачественных материалов, благодаря которым не только
-                    повышается видимость и эстетическая привлекательность, но и сокращаются расходы на электроэнергию.
+                    В автомобильной промышленности растет спрос на экологичные решения. Секционные ворота `&quot`Full
+                    Vision`&quot` от Loading Systems изготовлены из самых высококачественных материалов, благодаря
+                    которым не только повышается видимость и эстетическая привлекательность, но и сокращаются расходы на
+                    электроэнергию.
                   </p>
                 </div>
               </div>
@@ -419,7 +429,9 @@ const SolvingPage = () => {
                   className='itemContentImage'
                   data-aos='flip-right'
                 >
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     src='/docleLeveller.png'
                     alt=''
                     className='imageReverse'
@@ -472,7 +484,9 @@ const SolvingPage = () => {
                   className='itemContentImage'
                   data-aos='flip-right'
                 >
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     src='/VanDock.png'
                     alt=''
                     className='imageReverse'
@@ -490,7 +504,7 @@ const SolvingPage = () => {
                   className='title'
                   data-aos='fade-right'
                 >
-                  Пищевая промышленность{" "}
+                  Пищевая промышленность
                 </h3>
               </div>
               <div className='sectionContent'>
@@ -509,7 +523,9 @@ const SolvingPage = () => {
             className='itemContentImage'
             data-aos='flip-right'
           >
-            <img
+            <Image
+              width={100}
+              height={100}
               src='/industry.png'
               alt='industry'
               className='imageReverse'
@@ -544,7 +560,9 @@ const SolvingPage = () => {
             className='itemContentImage'
             data-aos='flip-right'
           >
-            <img
+            <Image
+              width={100}
+              height={100}
               src='/Sealer.png'
               alt='Sealer'
               className='imageReverse'
@@ -580,7 +598,9 @@ const SolvingPage = () => {
             className='itemContentImage'
             data-aos='flip-right'
           >
-            <img
+            <Image
+              width={100}
+              height={100}
               src='/Sealer2.png'
               alt='Sealer2'
               className='imageReverse'
@@ -682,7 +702,7 @@ const SolvingPage = () => {
                   className='text'
                   data-aos='fade-right'
                 >
-                  Независимо от типов ваших товаров, <span className='textBold'>Loading Systems обеспечивает </span>{" "}
+                  Независимо от типов ваших товаров, <span className='textBold'>Loading Systems обеспечивает </span>
                   безопасность, энергоэффективность, бесперебойность и экономичность ваших процессов. Loading Systems
                   может предложить предложить решения, с учетом Ваших индивидуальных требований.
                 </p>
@@ -820,7 +840,9 @@ const SolvingPage = () => {
                 className='imageBox'
                 data-aos='flip-right'
               >
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/decathlon.png'
                   alt='decathlon'
                 />
@@ -829,7 +851,9 @@ const SolvingPage = () => {
                 className='imageBox'
                 data-aos='flip-left'
               >
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/ikea.png'
                   alt='ikea'
                   className='img'
@@ -839,7 +863,9 @@ const SolvingPage = () => {
                 className='imageBox'
                 data-aos='flip-right'
               >
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/primark.png'
                   alt='primark'
                   className='img'
@@ -900,7 +926,9 @@ const SolvingPage = () => {
                 className='itemBox itemBoxCol'
                 data-aos='flip-right'
               >
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src='/stepImage.png'
                   alt='stepImage'
                   className='imageReverse'
@@ -953,7 +981,9 @@ const SolvingPage = () => {
             className='itemContentImage'
             data-aos='flip-right'
           >
-            <img
+            <Image
+              width={100}
+              height={100}
               src='/books.png'
               alt='books'
               className='imageReverse'

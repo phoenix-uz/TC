@@ -2,6 +2,7 @@ import ComponentDivider from "@/components/ComponentDivider";
 import ComponentAccordion from "@/components/UI/ComponentAccordion";
 import React from "react";
 import "./styles.sass";
+import Image from "next/image";
 
 const PageTentHangarDoors = () => {
   return (
@@ -87,7 +88,9 @@ const PageTentHangarDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tentHangarDoors1.png'
                 alt='tentHangarDoors1'
                 className='img'
@@ -164,7 +167,9 @@ const PageTentHangarDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tentHangarDoors2.png'
                 alt='tentHangarDoors2'
                 className='img'
@@ -241,7 +246,9 @@ const PageTentHangarDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tentHangarDoors3.png'
                 alt='tentHangarDoors3'
                 className='img'
@@ -318,7 +325,9 @@ const PageTentHangarDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tentHangarDoors4.png'
                 alt='tentHangarDoors4'
                 className='img'
@@ -396,7 +405,9 @@ const PageTentHangarDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tentHangarDoors5.png'
                 alt='tentHangarDoors5'
                 className='img'
@@ -475,7 +486,9 @@ const PageTentHangarDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tentHangarDoors6.png'
                 alt='tentHangarDoors6'
                 className='img'
@@ -555,7 +568,9 @@ const PageTentHangarDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tentHangarDoors7.png'
                 alt='tentHangarDoors7'
                 className='img'
@@ -635,7 +650,9 @@ const PageTentHangarDoors = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/tentHangarDoors8.png'
                 alt='tentHangarDoors8'
                 className='img'

@@ -4,6 +4,7 @@ import ComponentAccordion from "@/components/UI/ComponentAccordion";
 import React from "react";
 import "./styles.sass";
 import Button from "@/components/UI/Button";
+import Image from "next/image";
 
 const MechanicalBridges = () => {
   const handleDownloadSectionalDoors = () => {
@@ -70,7 +71,9 @@ const MechanicalBridges = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       src='/control2.png'
                       alt='control2'
                       className='img'
@@ -97,7 +100,9 @@ const MechanicalBridges = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       src='/materials.png'
                       alt='materials'
                       className='img'
@@ -157,7 +162,9 @@ const MechanicalBridges = () => {
                     <p className='text'>Размеры моделей перегрузочного мостика 105NG</p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       src='/sizes.png'
                       alt='sizes'
                       className='img'

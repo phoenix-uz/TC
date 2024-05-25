@@ -3,6 +3,7 @@ import ComponentDivider from "@/components/ComponentDivider";
 import ComponentAccordion from "@/components/UI/ComponentAccordion";
 import React from "react";
 import Button from "@/components/UI/Button";
+import Image from "next/image";
 
 const PageSafetyOnRamp = () => {
   const handleFoldingGatesCatalog = () => {
@@ -27,8 +28,8 @@ const PageSafetyOnRamp = () => {
                   Система фиксации транспортных средств PowerLock 505NG, была разработана для преодоления рисков,
                   связанных с расстоянием между погрузочно-разгрузочной платформой и полом кузова транспортного
                   средства. Это снижает вероятность опасных ситуаций, таких как преждевременный отъезд транспортного
-                  средства во время процесса погрузки или разгрузки, а также предотвращает "сползание" транспортного
-                  средства при заезде и выезде погрузчика.
+                  средства во время процесса погрузки или разгрузки, а также предотвращает `&quot`сползание`&quot`
+                  транспортного средства при заезде и выезде погрузчика.
                 </p>
                 <p className='text'>
                   PowerLock 505NG может быть использован как автономная единица или интегрирован в пульты управления
@@ -43,7 +44,9 @@ const PageSafetyOnRamp = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/safetyonramp.png'
                 alt='safetyonramp'
                 className='img'
@@ -136,7 +139,7 @@ const PageSafetyOnRamp = () => {
                       Оператор склада управляет кнопочным постом внутри складского здания, который активирует
                       гидравлический цилиндр для механической блокировки задних колес транспортного средства. Встроенные
                       датчики отслеживают положение колес, обеспечивая точную фиксацию блокировки и предотвращая
-                      "сползание" автомобиля от погрузочно-разгрузочного дока. При нажатии кнопки происходит
+                      `&quot`сползание`&quot` автомобиля от погрузочно-разгрузочного дока. При нажатии кнопки происходит
                       автоматическое обнаружение и блокировка заднего колеса. Процесс фиксации транспортного средства
                       занимает приблизительно 25 секунд. По запросу клиента можно установить систему контроля давления в
                       блоке на колесе.
@@ -183,7 +186,9 @@ const PageSafetyOnRamp = () => {
 
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/fixationSystem.png'
                 alt='fixationSystem'
                 className='img'
@@ -203,12 +208,12 @@ const PageSafetyOnRamp = () => {
                       <li>Повышенная безопасность по сравнению с другими системами блокировки.</li>
                       <li>Предотвращение повреждений или скатываний транспортных средств.</li>
                       <li>Система фиксации предотвращает угон вашего транспортного средства.</li>
-                      <li>Защита от "откатывания" транспортного средства.</li>
+                      <li>Защита от `&quot`откатывания`&quot` транспортного средства.</li>
                       <li>Используется в качестве направляющих для погрузчика.</li>
                     </ul>
                   </div>
                 </div>
-              </ComponentAccordion>{" "}
+              </ComponentAccordion>
             </div>
           </div>
           <div className='item'>
@@ -340,7 +345,9 @@ const PageSafetyOnRamp = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/signalLamps.png'
                 alt='signalLamps'
                 className='img'
@@ -361,7 +368,7 @@ const PageSafetyOnRamp = () => {
                     средство установлено на погрузочно-разгрузочную рампу. Это обеспечивает безопасность на погрузочной
                     рампе, предотвращая водителя вилочного погрузчика от случайного выезда задним ходом на платформу.
                     Такой подход существенно снижает потери энергии, поскольку ворота открываются только после того, как
-                    машина полностью "заперта" в шлюзе.
+                    машина полностью `&quot`заперта`&quot` в шлюзе.
                   </div>
                 </div>
               </ComponentAccordion>
@@ -369,7 +376,9 @@ const PageSafetyOnRamp = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/signalLamps2.png'
                 alt='signalLamps2'
                 className='img'
@@ -394,7 +403,9 @@ const PageSafetyOnRamp = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/signalLamps3.png'
                 alt='signalLamps3'
                 className='img'

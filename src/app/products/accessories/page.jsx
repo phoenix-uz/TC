@@ -2,6 +2,7 @@
 import ComponentDivider from "@/components/ComponentDivider";
 import React from "react";
 import Button from "@/components/UI/Button";
+import Image from "next/image";
 
 const PageAccessories = () => {
   const handleFoldingGatesCatalog = () => {
@@ -53,10 +54,12 @@ const PageAccessories = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/metalBoots.png'
                 alt='metalBoots'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -227,10 +230,12 @@ const PageAccessories = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/dockFloodlight.png'
                 alt='dockFloodlight'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -358,10 +363,12 @@ const PageAccessories = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/dockFloodlight2.png'
                 alt='dockFloodlight2'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -498,10 +505,12 @@ const PageAccessories = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/trafficLights.png'
                 alt='trafficLights'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -657,10 +666,12 @@ const PageAccessories = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/markingPosts.png'
                 alt='markingPosts'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -763,10 +774,12 @@ const PageAccessories = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/wheelGuides3.png'
                 alt='wheelGuides3'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -800,10 +813,12 @@ const PageAccessories = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/model3.png'
                 alt='model3'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -887,8 +902,8 @@ const PageAccessories = () => {
                 <ul>
                   <li>
                     Подключение перегрузочного моста PoweRamp и промышленных ворот PowerDoor: Доклевеллер PoweRamp может
-                    быть "освобожден" только после полного открытия промышленных ворот PowerDoor. Это исключает
-                    возможность повреждения продукции из-за неправильного управления.
+                    быть `&quot`освобожден `&quot` только после полного открытия промышленных ворот PowerDoor. Это
+                    исключает возможность повреждения продукции из-за неправильного управления.
                   </li>
                   <li>
                     Подключение герметизатора проема PowerShelter и промышленных ворот PowerDoor: Промышленные ворота
@@ -919,10 +934,12 @@ const PageAccessories = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
                 src='/combiControl.png'
                 alt='combiControl'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
           </div>

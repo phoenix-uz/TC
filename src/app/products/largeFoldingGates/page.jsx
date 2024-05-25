@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.sass";
 import ComponentDivider from "@/components/ComponentDivider";
+import Image from "next/image";
 
 const PageLargeFoldingGates = () => {
   return (
@@ -32,45 +33,57 @@ const PageLargeFoldingGates = () => {
         <div className='container'>
           <div className='imageContainer'>
             <div className='firstImageBox'>
-              <img
+              <Image
                 src='/imageFirst.png'
                 alt='imageFirst'
                 className='img'
+                width={100}
+                height={100}
               />
             </div>
             <div className='secondImageBox'>
-              <img
+              <Image
                 src='/imageSecond.png'
                 className='img'
                 alt='imageSecond'
+                width={100}
+                height={100}
               />
             </div>
             <div className='thirdImageBox'>
-              <img
+              <Image
                 src='/imageThird.png'
                 className='img'
                 alt='imageThird'
+                width={100}
+                height={100}
               />
             </div>
             <div className='forthImageBox'>
-              <img
+              <Image
                 src='/imageForth.png'
                 className='img'
                 alt='imageForth'
+                width={100}
+                height={100}
               />
             </div>
             <div className='fifthImageBox'>
-              <img
+              <Image
                 src='/imageFifth.png'
                 className='img'
                 alt='imageFifth'
+                width={100}
+                height={100}
               />
             </div>
             <div className='sixthImageBox'>
-              <img
+              <Image
                 src='/imageSixth.png'
                 className='img'
                 alt='imageSixth'
+                width={100}
+                height={100}
               />
             </div>
           </div>

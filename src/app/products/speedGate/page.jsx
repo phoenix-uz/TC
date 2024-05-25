@@ -4,6 +4,7 @@ import React from "react";
 import "./styles.sass";
 import ComponentAccordion from "@/components/UI/ComponentAccordion";
 import Button from "@/components/UI/Button";
+import Image from "next/image";
 
 const SpeedGate = () => {
   const handleDownloadSectionalDoorN = () => {
@@ -36,7 +37,9 @@ const SpeedGate = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/speedGate.png'
                 alt='speedGate'
                 className='img'
@@ -206,7 +209,9 @@ const SpeedGate = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/clean.png'
                 alt='clean'
                 className='img'
@@ -332,7 +337,9 @@ const SpeedGate = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/food.png'
                 alt='food'
                 className='img'
@@ -460,7 +467,9 @@ const SpeedGate = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/freez.png'
                 alt='freez'
                 className='img'
@@ -594,7 +603,9 @@ const SpeedGate = () => {
           </div>
           <div className='item'>
             <div className='imageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/freez2.png'
                 alt='freez2'
                 className='img'

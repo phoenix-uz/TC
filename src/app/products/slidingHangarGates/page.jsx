@@ -1,6 +1,8 @@
 import React from "react";
 import ComponentDivider from "@/components/ComponentDivider";
 import "./styles.sass";
+import Image from "next/image";
+import { ImageError } from "next/dist/server/image-optimizer";
 
 const PageSlidingHangarGates = () => {
   return (
@@ -18,42 +20,54 @@ const PageSlidingHangarGates = () => {
         <div className='container'>
           <div className='imageContainer'>
             <div className='firstImageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/imageFirst.png'
                 className='img'
                 alt='imageFirst'
               />
             </div>
             <div className='secondImageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/imageSecond.png'
                 className='img'
                 alt='imageSecond'
               />
             </div>
             <div className='thirdImageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/imageThird.png'
                 className='img'
                 alt='imageThird'
               />
             </div>
             <div className='forthImageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/imageForth.png'
                 className='img'
                 alt='imageForth'
               />
             </div>
             <div className='fifthImageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/imageFifth.png'
                 className='img'
                 alt='imageFifth'
               />
             </div>
             <div className='sixthImageBox'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/imageSixth.png'
                 className='img'
                 alt='imageSixth'

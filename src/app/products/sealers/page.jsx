@@ -4,6 +4,7 @@ import ComponentAccordion from "@/components/UI/ComponentAccordion";
 import React from "react";
 import Button from "@/components/UI/Button";
 import "./styles.sass";
+import Image from "next/image";
 
 const PageSealers = () => {
   const handleDownloadSectionalDoors = () => {
@@ -53,7 +54,9 @@ const PageSealers = () => {
           </div>
           <div className='item'>
             <div className='boxImageContainer'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src='/sealers1.png'
                 alt='sealers1'
                 className='img'
@@ -98,7 +101,9 @@ const PageSealers = () => {
                     </p>
                   </div>
                   <div className='boxImageContainer'>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       src='/materials2.png'
                       alt='materials2'
                       className='img'

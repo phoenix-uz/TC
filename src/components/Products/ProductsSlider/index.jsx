@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "./styles.sass";
 import "swiper/css";
+import Image from "next/image";
 
 const ProductsSlider = () => {
   const PartnersSlideImages = [
@@ -50,7 +51,7 @@ const ProductsSlider = () => {
         {PartnersSlideImages.map((item, index) => (
           <SwiperSlide key={index}>
             <div className='imagesBlock'>
-              <img
+              <Image
                 className='image'
                 src={item.img}
                 alt={item.alt}
