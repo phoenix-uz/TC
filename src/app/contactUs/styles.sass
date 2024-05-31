@@ -1,0 +1,20 @@
+@import '../../styles/_variables'
+@import '../../styles/_typography'
+.contactUs
+    .contactUsContainer
+        padding: 50px 0
+        .sectionTitle
+            display: flex
+            justify-content: center
+            &::after
+                bottom: 0
+                width: 50%
+                @media screen and (max-width: 1150px)
+                    width: 100%
+        .contactUsBox
+            display: flex
+            justify-content: space-between
+            padding: 20px 0
+            @media screen and (max-width: 420px)
+                flex-direction: column
+                row-gap: 20px

@@ -53,7 +53,7 @@ const PageSectionalDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/SectionalDoors.png'
+                src='/SectionalDoors.svg'
                 alt='SectionalDoors'
                 className='img'
               />
@@ -113,7 +113,7 @@ const PageSectionalDoors = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/exteriorFinishing.png'
+                      src='/exteriorFinishing.svg'
                       alt='exteriorFinishing'
                       className='img'
                     />
@@ -201,7 +201,7 @@ const PageSectionalDoors = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='/gatesWithFullGlazing.png'
+                  src='/gatesWithFullGlazing.svg'
                   alt='gatesWithFullGlazing'
                   className='img'
                 />
@@ -348,7 +348,7 @@ const PageSectionalDoors = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/control.png'
+                      src='/control.svg'
                       alt='control'
                       className='img'
                     />
@@ -458,7 +458,7 @@ const PageSectionalDoors = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/withSecurity.png'
+                      src='/withSecurity.svg'
                       alt='withSecurity'
                       className='img'
                     />
@@ -475,10 +475,174 @@ const PageSectionalDoors = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/withoutSecurity.png'
+                      src='/withoutSecurity.svg'
                       alt='withoutSecurity'
                       className='img'
                     />
+                  </div>
+                  <div className='accordionFile'>
+                    <div className='secondaryTitle'>
+                      <h3 className='title'>Секционные ворота 601N</h3>
+                    </div>
+                    <Button
+                      className='download'
+                      onClick={handleDownloadSectionalDoorN}
+                    >
+                      Скачать
+                    </Button>
+                  </div>
+                </div>
+              </ComponentAccordion>
+            </div>
+          </div>
+        </ComponentDivider>
+        <ComponentDivider>
+          <div className='item'>
+            <div className='boxContainer'>
+              <div className='sectionTitle'>
+                <h3 className='title'>
+                  Секционные ворота <span className='secondaryText'>601DD</span>
+                </h3>
+              </div>
+              <div className='sectionText'>
+                <p className='text'>
+                  Секционные ворота 601DD - это новейшая модель промышленных ворот, созданная на базе серии 601N. Эти
+                  ворота специально разработаны для зон погрузки и разгрузки. Благодаря тщательно продуманной
+                  конструкции и используемым материалам, ворота данной серии отличаются высокой надежностью и
+                  устойчивостью к износу.
+                </p>
+              </div>
+              <div className='secondaryTitle'>
+                <div className='h3 title'>Отличия от ворот 601N</div>
+              </div>
+              <div className='sectionText'>
+                <ul>
+                  <li>Оптимизированы для работы в доке</li>
+                  <li>Максимальные размеры: 3,750 х 4000</li>
+                  <li>Предварительно собранный пружинный блок</li>
+                  <li>Только 2 подъемные системы: вверх и вертикальная</li>
+                  <li>Поставляется с двумя видами приводов: 50/60 Hm или Эко-привод</li>
+                  <li>Доступны с и без терморазрыва</li>
+                </ul>
+              </div>
+              <ComponentAccordion accordionTitle='Опции'>
+                <div className='accordionContainer'>
+                  <div className='sectionText'>
+                    <ul>
+                      <li>Высокий или вертикальный подъем</li>
+                      <li>Разработаны для погрузочных зон</li>
+                      <li>Низкие цены для проектов средних резмеров</li>
+                      <li>Низкие цены для проектов больших размеров</li>
+                    </ul>
+                  </div>
+                  <div className='accordionFile'>
+                    <div className='secondaryTitle'>
+                      <h3 className='title'>Секционные ворота 601N</h3>
+                    </div>
+                    <Button
+                      className='download'
+                      onClick={handleDownloadSectionalDoorN}
+                    >
+                      Скачать
+                    </Button>
+                  </div>
+                </div>
+              </ComponentAccordion>
+            </div>
+          </div>
+        </ComponentDivider>
+
+        <ComponentDivider>
+          <div className='item'>
+            <div className='boxContainer'>
+              <div className='sectionTitle'>
+                <h3 className='title'>
+                  Скоростные сеционные ворота <span className='secondaryText'>620NG</span>
+                </h3>
+              </div>
+              <div className='sectionText'>
+                <p className='text'>
+                  Представляем наш новый продукт - Высокоскоростные секционные ворота Loading Systems 620. Основная цель
+                  разработки заключалась в увеличении общей скорости работы. Мы стремились создать секционные ворота,
+                  которые работают быстро и сохраняют все преимущества нашей модели PowerDoor 601. И нам это удалось!
+                  Эти ворота не только быстро открываются и закрываются, но и обладают превосходными теплоизоляционными
+                  свойствами. Они также сочетают в себе практичность и экономичное потребление электроэнергии. Новая
+                  техническая конструкция обеспечивает их долговечность, делая ворота уникальным дополнением к семейству
+                  промышленных ворот Loading Systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </ComponentDivider>
+
+        <ComponentDivider>
+          <div className='item'>
+            <div className='boxContainer'>
+              <ComponentAccordion accordionTitle='Особенности'>
+                <div className='accordionContainer'>
+                  <div className='sectionText'>
+                    <ul>
+                      <li>Высокая скорость открытия и закрытия, обеспечивающая быстрый проезд автотранспорта</li>
+                      <li>Снижение циркуляции воздуха между внешней и внутренней средой</li>
+                      <li>Сокращение затрат электроэнергии до 4-х раз</li>
+                      <li>Все основные преимущества 601, только еще быстрее</li>
+                      <li>Специально разработанные компоненты:консоли, подшипники и стойки</li>
+                      <li>Пружины, рассчитанные на 50000 циклов</li>
+                    </ul>
+                  </div>
+                </div>
+              </ComponentAccordion>
+            </div>
+          </div>
+          <div className='item'>
+            <div className='boxImageContainer'>
+              <Image
+                width={100}
+                height={100}
+                src='/specials.svg'
+                alt='specials'
+                className='img'
+              />
+            </div>
+          </div>
+        </ComponentDivider>
+
+        <ComponentDivider>
+          <div className='item'>
+            <div className='boxContainer'>
+              <ComponentAccordion accordionTitle='Особенности'>
+                <div className='accordionContainer'>
+                  <div className='accordionBoxInfo'>
+                    <div className='info'>
+                      <div className='infoTitle'>
+                        <h4 className='title'>Характеристики</h4>
+                      </div>
+                      <div className='infoBox'>
+                        <p className='text'>стандарт исполнения</p>
+                        <p className='text'>макс. ширина (Ш)</p>
+                        <p className='text'>макс. высота (В)</p>
+                        <p className='text'>скорость открытия</p>
+                        <p className='text'>скорость закрытия</p>
+                        <p className='text'>Теплоизоляция</p>
+                        <p className='text'>Толщина панели</p>
+                        <p className='text'>Высота секции</p>
+                      </div>
+                    </div>
+                    <div className='info'>
+                      <div className='infoTitle'>
+                        <h4 className='title'>Высокоскоростные ворота 620NG</h4>
+                      </div>
+                      <div className='infoBox'>
+                        <p className='text'>согласно нормам СЕ</p>
+                        <p className='text'>5000 мм</p>
+                        <p className='text'>5000 мм</p>
+                        <p className='text'>до 1.4 м/с</p>
+                        <p className='text'>0.8 м/с</p>
+                        <p className='text'>1,18 Wm²K</p>
+                        <p className='text'>40 мм</p>
+                        <p className='text'>244-610мм</p>
+                      </div>
+                    </div>
                   </div>
                   <div className='accordionFile'>
                     <div className='secondaryTitle'>

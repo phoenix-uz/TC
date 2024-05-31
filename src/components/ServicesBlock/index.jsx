@@ -37,7 +37,7 @@ const ServicesBlock = () => {
             <Image
               width={100}
               height={100}
-              src='/services.png'
+              src='/services.svg'
               className='img'
               alt='servicesImage'
             />

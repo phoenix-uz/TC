@@ -55,7 +55,7 @@ const HangarGates = () => {
           <div className='item'>
             <div className='imageBox'>
               <Image
-                src='/liftingAwningGates.png'
+                src='/liftingAwningGates.svg'
                 alt='liftingAwningGates'
                 className='img'
                 width={100}
@@ -93,7 +93,7 @@ const HangarGates = () => {
                   </div>
                   <div className='boxImageContainer'>
                     <Image
-                      src='/canvas.png'
+                      src='/canvas.svg'
                       alt='canvas'
                       className='img'
                       width={100}
@@ -119,7 +119,7 @@ const HangarGates = () => {
                   </div>
                   <div className='boxImageContainer'>
                     <Image
-                      src='/sideGuides.png'
+                      src='/sideGuides.svg'
                       alt='sideGuides'
                       className='img'
                       width={100}
@@ -147,7 +147,7 @@ const HangarGates = () => {
                   </div>
                   <div className='boxImageContainer'>
                     <Image
-                      src='/intermediateLiftingSupports.png'
+                      src='/intermediateLiftingSupports.svg'
                       alt='intermediateLiftingSupports'
                       className='img'
                       width={100}
@@ -171,7 +171,7 @@ const HangarGates = () => {
                   </div>
                   <div className='boxImageContainer'>
                     <Image
-                      src='/thermalInsulation.png'
+                      src='/thermalInsulation.svg'
                       alt='thermalInsulation'
                       className='img'
                       width={100}
@@ -199,7 +199,7 @@ const HangarGates = () => {
                   </div>
                   <div className='boxImageContainer'>
                     <Image
-                      src='/electricDrivesAndLimitDrives.png'
+                      src='/electricDrivesAndLimitDrives.svg'
                       alt='electricDrivesAndLimitDrives '
                       className='img'
                       width={100}

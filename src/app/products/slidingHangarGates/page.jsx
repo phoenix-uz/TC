@@ -23,7 +23,7 @@ const PageSlidingHangarGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/imageFirst.png'
+                src='/imageFirst.svg'
                 className='img'
                 alt='imageFirst'
               />
@@ -32,7 +32,7 @@ const PageSlidingHangarGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/imageSecond.png'
+                src='/imageSecond.svg'
                 className='img'
                 alt='imageSecond'
               />
@@ -41,7 +41,7 @@ const PageSlidingHangarGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/imageThird.png'
+                src='/imageThird.svg'
                 className='img'
                 alt='imageThird'
               />
@@ -50,7 +50,7 @@ const PageSlidingHangarGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/imageForth.png'
+                src='/imageForth.svg'
                 className='img'
                 alt='imageForth'
               />
@@ -59,7 +59,7 @@ const PageSlidingHangarGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/imageFifth.png'
+                src='/imageFifth.svg'
                 className='img'
                 alt='imageFifth'
               />
@@ -68,7 +68,7 @@ const PageSlidingHangarGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/imageSixth.png'
+                src='/imageSixth.svg'
                 className='img'
                 alt='imageSixth'
               />

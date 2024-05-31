@@ -40,7 +40,7 @@ const SpeedGate = () => {
               <Image
                 width={100}
                 height={100}
-                src='/speedGate.png'
+                src='/speedGate.svg'
                 alt='speedGate'
                 className='img'
               />
@@ -88,6 +88,17 @@ const SpeedGate = () => {
                   снаружи зданий.
                 </p>
               </div>
+            </div>
+          </div>
+          <div className='item'>
+            <div className='imageBox'>
+              <Image
+                width={100}
+                height={100}
+                src='/standartImg.svg'
+                alt='standartImg'
+                className='img'
+              />
             </div>
           </div>
         </ComponentDivider>
@@ -212,7 +223,7 @@ const SpeedGate = () => {
               <Image
                 width={100}
                 height={100}
-                src='/clean.png'
+                src='/clean.svg'
                 alt='clean'
                 className='img'
               />
@@ -340,7 +351,7 @@ const SpeedGate = () => {
               <Image
                 width={100}
                 height={100}
-                src='/food.png'
+                src='/food.svg'
                 alt='food'
                 className='img'
               />
@@ -470,7 +481,7 @@ const SpeedGate = () => {
               <Image
                 width={100}
                 height={100}
-                src='/freez.png'
+                src='/freez.svg'
                 alt='freez'
                 className='img'
               />
@@ -606,7 +617,7 @@ const SpeedGate = () => {
               <Image
                 width={100}
                 height={100}
-                src='/freez2.png'
+                src='/freez2.svg'
                 alt='freez2'
                 className='img'
               />

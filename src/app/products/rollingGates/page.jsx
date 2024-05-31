@@ -62,7 +62,7 @@ const RollingGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/rollingGates.png'
+                src='/rollingGates.svg'
                 alt='rollingGates'
                 className='img'
               />
@@ -124,7 +124,7 @@ const RollingGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tests.png'
+                src='/tests.svg'
                 alt='tests'
                 className='img'
               />
@@ -151,7 +151,7 @@ const RollingGates = () => {
               <Image
                 width={100}
                 height={100}
-                src='/quality.png'
+                src='/quality.svg'
                 alt='quality'
                 className='img'
               />
@@ -208,9 +208,9 @@ const RollingGates = () => {
           <div className='item'>
             <div className='imageBox'>
               <Image
-              width={100}
-              height={100}
-                src='/collected.png'
+                width={100}
+                height={100}
+                src='/collected.svg'
                 alt='collected'
                 className='img'
               />

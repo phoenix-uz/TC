@@ -37,7 +37,7 @@ const BIM = () => {
         <Image
           width={100}
           height={100}
-          src='/bimImage.png'
+          src='/bimImage.svg'
           alt='bimImage'
           className='img'
         />

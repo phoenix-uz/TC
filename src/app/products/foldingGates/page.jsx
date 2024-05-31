@@ -46,7 +46,7 @@ const FoldingGates = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='/foldingGates1.png'
+                    src='/foldingGates1.svg'
                     alt='foldingGates'
                     className='img'
                   />
@@ -55,7 +55,7 @@ const FoldingGates = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='/foldingGates2.png'
+                    src='/foldingGates2.svg'
                     alt='foldingGates'
                     className='img'
                   />
@@ -64,14 +64,14 @@ const FoldingGates = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='/foldingGates3.png'
+                    src='/foldingGates3.svg'
                     alt='foldingGates'
                     className='img'
                   />
                 </div>
                 <div className='foldingGatesImagesBoxContainer'>
                   <Image
-                    src='/foldingGates4.png'
+                    src='/foldingGates4.svg'
                     alt='foldingGates'
                     className='img'
                     width={100}
@@ -82,7 +82,7 @@ const FoldingGates = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='/foldingGates5.png'
+                    src='/foldingGates5.svg'
                     alt='foldingGates'
                     className='img'
                   />

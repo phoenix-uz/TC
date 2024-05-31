@@ -57,7 +57,7 @@ const PageSealers = () => {
               <Image
                 width={100}
                 height={100}
-                src='/sealers1.png'
+                src='/sealers1.svg'
                 alt='sealers1'
                 className='img'
               />
@@ -104,7 +104,7 @@ const PageSealers = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/materials2.png'
+                      src='/materials2.svg'
                       alt='materials2'
                       className='img'
                     />

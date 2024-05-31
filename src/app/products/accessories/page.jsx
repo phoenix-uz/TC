@@ -55,7 +55,7 @@ const PageAccessories = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/metalBoots.png'
+                src='/metalBoots.svg'
                 alt='metalBoots'
                 className='img'
                 width={100}
@@ -231,7 +231,7 @@ const PageAccessories = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/dockFloodlight.png'
+                src='/dockFloodlight.svg'
                 alt='dockFloodlight'
                 className='img'
                 width={100}
@@ -364,7 +364,7 @@ const PageAccessories = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/dockFloodlight2.png'
+                src='/dockFloodlight2.svg'
                 alt='dockFloodlight2'
                 className='img'
                 width={100}
@@ -506,7 +506,7 @@ const PageAccessories = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/trafficLights.png'
+                src='/trafficLights.svg'
                 alt='trafficLights'
                 className='img'
                 width={100}
@@ -667,7 +667,7 @@ const PageAccessories = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/markingPosts.png'
+                src='/markingPosts.svg'
                 alt='markingPosts'
                 className='img'
                 width={100}
@@ -775,7 +775,7 @@ const PageAccessories = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/wheelGuides3.png'
+                src='/wheelGuides3.svg'
                 alt='wheelGuides3'
                 className='img'
                 width={100}
@@ -814,7 +814,7 @@ const PageAccessories = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/model3.png'
+                src='/model3.svg'
                 alt='model3'
                 className='img'
                 width={100}
@@ -935,7 +935,7 @@ const PageAccessories = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/combiControl.png'
+                src='/combiControl.svg'
                 alt='combiControl'
                 className='img'
                 width={100}

@@ -34,7 +34,7 @@ const PageLargeFoldingGates = () => {
           <div className='imageContainer'>
             <div className='firstImageBox'>
               <Image
-                src='/imageFirst.png'
+                src='/imageFirst.svg'
                 alt='imageFirst'
                 className='img'
                 width={100}
@@ -43,7 +43,7 @@ const PageLargeFoldingGates = () => {
             </div>
             <div className='secondImageBox'>
               <Image
-                src='/imageSecond.png'
+                src='/imageSecond.svg'
                 className='img'
                 alt='imageSecond'
                 width={100}
@@ -52,7 +52,7 @@ const PageLargeFoldingGates = () => {
             </div>
             <div className='thirdImageBox'>
               <Image
-                src='/imageThird.png'
+                src='/imageThird.svg'
                 className='img'
                 alt='imageThird'
                 width={100}
@@ -61,7 +61,7 @@ const PageLargeFoldingGates = () => {
             </div>
             <div className='forthImageBox'>
               <Image
-                src='/imageForth.png'
+                src='/imageForth.svg'
                 className='img'
                 alt='imageForth'
                 width={100}
@@ -70,7 +70,7 @@ const PageLargeFoldingGates = () => {
             </div>
             <div className='fifthImageBox'>
               <Image
-                src='/imageFifth.png'
+                src='/imageFifth.svg'
                 className='img'
                 alt='imageFifth'
                 width={100}
@@ -79,7 +79,7 @@ const PageLargeFoldingGates = () => {
             </div>
             <div className='sixthImageBox'>
               <Image
-                src='/imageSixth.png'
+                src='/imageSixth.svg'
                 className='img'
                 alt='imageSixth'
                 width={100}

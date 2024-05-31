@@ -19,7 +19,11 @@
         background: #a50424
 .outline
     background: transparent
-    border: 1px solid map-get($basic, 'white')
+    border: 1px solid map-get($basic, 'black')
+    color: map-get($basic, 'black')
+    &:hover
+        background: map-get($basic, 'black')
+        color: map-get($basic, 'white')
 .download
     padding: 30px
     margin-top: 10px

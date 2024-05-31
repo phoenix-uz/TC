@@ -77,7 +77,7 @@ const PageDockLevelers = () => {
                   </div>
                   <div className='boxImageContainer'>
                     <Image
-                      src='/overloadControl.png'
+                      src='/overloadControl.svg'
                       alt='overloadControl'
                       className='img'
                       width={100}
@@ -105,7 +105,7 @@ const PageDockLevelers = () => {
                   </div>
                   <div className='boxImageContainer'>
                     <Image
-                      src='/mountingOptions.png'
+                      src='/mountingOptions.svg'
                       alt='mountingOptions'
                       className='img'
                       width={100}
@@ -526,7 +526,7 @@ const PageDockLevelers = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/overloadControl2.png'
+                      src='/overloadControl2.svg'
                       alt='overloadControl2'
                       className='img'
                     />
@@ -553,7 +553,7 @@ const PageDockLevelers = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/mountingOptions2.png'
+                      src='/mountingOptions2.svg'
                       alt='mountingOptions2'
                       className='img'
                     />
@@ -758,7 +758,7 @@ const PageDockLevelers = () => {
               <Image
                 width={100}
                 height={100}
-                src='/bridgeInRetractableAparelle.png'
+                src='/bridgeInRetractableAparelle.svg'
                 alt='bridgeInRetractableAparelle'
                 className='img'
               />
@@ -917,7 +917,7 @@ const PageDockLevelers = () => {
               <Image
                 width={100}
                 height={100}
-                src='/reloadingVestibule.png'
+                src='/reloadingVestibule.svg'
                 alt='reloadingVestibule'
                 className='img'
               />

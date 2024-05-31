@@ -74,7 +74,7 @@ const MechanicalBridges = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/control2.png'
+                      src='/control2.svg'
                       alt='control2'
                       className='img'
                     />
@@ -103,7 +103,7 @@ const MechanicalBridges = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/materials.png'
+                      src='/materials.svg'
                       alt='materials'
                       className='img'
                     />
@@ -165,7 +165,7 @@ const MechanicalBridges = () => {
                     <Image
                       width={100}
                       height={100}
-                      src='/sizes.png'
+                      src='/sizes2.svg'
                       alt='sizes'
                       className='img'
                     />

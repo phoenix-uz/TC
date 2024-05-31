@@ -19,17 +19,76 @@ const NavBar = ({ burgerIsOpen }) => {
         <div className='navBox'>
           <div className='links'>
             <Link
-              className='navLink'
+              className='navLink '
               href='/about'
             >
               О нас
             </Link>
-            <Link
-              className='navLink'
-              href='/solvingPage'
-            >
-              Решения
-            </Link>
+            <div className='navItem'>
+              <Link
+                className='navLink'
+                href='/solvingPage'
+              >
+                Решения
+              </Link>
+              <div className='dropdown'>
+                <div className='dropdownBox'>
+                  <div className='linksBox'>
+                    <Link
+                      href='/solvingPage#auto'
+                      className='navLink '
+                    >
+                      Автомобильная промышленность
+                    </Link>
+                    <Link
+                      href='/solvingPage#olineCommertion'
+                      className='navLink'
+                    >
+                      Онлайн-коммерция
+                    </Link>
+                    <Link
+                      href='/solvingPage#foodIndustry'
+                      className='navLink'
+                    >
+                      Пищевая промышленность
+                    </Link>
+                    <Link
+                      href='/solvingPage#logistics'
+                      className='navLink'
+                    >
+                      Логистика
+                    </Link>
+                  </div>
+                  <div className='linksBox'>
+                    <Link
+                      href='/solvingPage#pharmaceuticals'
+                      className='navLink '
+                    >
+                      Фармацевтика
+                    </Link>
+                    <Link
+                      href='/solvingPage#retail'
+                      className='navLink'
+                    >
+                      Розничная торговля
+                    </Link>
+                    <Link
+                      href='/solvingPage#safety'
+                      className='navLink'
+                    >
+                      Безопасность
+                    </Link>
+                    <Link
+                      href='/solvingPage#sustainableDevelopment'
+                      className='navLink'
+                    >
+                      Устойчивое развитие
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className='navItem'>
               <span className='navLink linkToDropDropdown'>Продукты</span>
               <div className='dropdown'>
@@ -68,7 +127,7 @@ const NavBar = ({ burgerIsOpen }) => {
                       Ангарные ворота{" "}
                     </Link>
                     <Link
-                      href='/products/'
+                      href='/products/hangarGates'
                       className='navLink'
                     >
                       Подъемные тентовые ворота{" "}
@@ -144,18 +203,18 @@ const NavBar = ({ burgerIsOpen }) => {
 
             <Link
               className='navLink'
-              href='./news'
+              href='./PageServices'
             >
               Услуги
             </Link>
             <Link
               className='navLink'
-              href='./about'
+              href='./'
             >
               BIM
             </Link>
             <Link
-              href='/#price'
+              href='/contactUs'
               className='navLink'
             >
               Контакты

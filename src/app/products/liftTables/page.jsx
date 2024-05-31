@@ -70,7 +70,7 @@ const LiftTables = () => {
           <div className='item'>
             <div className='boxImageContainer'>
               <Image
-                src='/quaolityAndSafe.png'
+                src='/quaolityAndSafe.svg'
                 alt='quaolityAndSafe'
                 className='img'
                 width={100}
@@ -113,7 +113,7 @@ const LiftTables = () => {
               <Image
                 width={100}
                 height={100}
-                src='/durability.png'
+                src='/durability.svg'
                 alt='durability'
                 className='img'
               />
@@ -143,7 +143,7 @@ const LiftTables = () => {
               <Image
                 width={100}
                 height={100}
-                src='/Scissor.png'
+                src='/Scissor.svg'
                 alt='Scissor'
                 className='img'
               />

@@ -47,7 +47,7 @@ const PageSafetyOnRamp = () => {
               <Image
                 width={100}
                 height={100}
-                src='/safetyonramp.png'
+                src='/safetyonramp.svg'
                 alt='safetyonramp'
                 className='img'
               />
@@ -189,7 +189,7 @@ const PageSafetyOnRamp = () => {
               <Image
                 width={100}
                 height={100}
-                src='/fixationSystem.png'
+                src='/fixationSystem.svg'
                 alt='fixationSystem'
                 className='img'
               />
@@ -348,7 +348,7 @@ const PageSafetyOnRamp = () => {
               <Image
                 width={100}
                 height={100}
-                src='/signalLamps.png'
+                src='/signalLamps.svg'
                 alt='signalLamps'
                 className='img'
               />
@@ -379,7 +379,7 @@ const PageSafetyOnRamp = () => {
               <Image
                 width={100}
                 height={100}
-                src='/signalLamps2.png'
+                src='/signalLamps2.svg'
                 alt='signalLamps2'
                 className='img'
               />
@@ -406,7 +406,7 @@ const PageSafetyOnRamp = () => {
               <Image
                 width={100}
                 height={100}
-                src='/signalLamps3.png'
+                src='/signalLamps3.svg'
                 alt='signalLamps3'
                 className='img'
               />

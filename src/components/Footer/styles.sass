@@ -1,7 +1,7 @@
 @import '../../styles/_variables'
 @import '../../styles/_typography'
 .footer
-    background: map-get($palete, 'secondary')
+    background: map-get($palete, 'grayLight')
     padding: 80px 0 40px 0
     @media screen and (max-width: 670px)
         padding: 50px 0
@@ -19,12 +19,21 @@
             display: flex
             flex-direction: column
             .itemsTitle
+                position: relative
                 @media screen and (max-width: 670px)
                     text-align: center
                     margin-top: 10px
                 .title
                     font-family: 'Gilroy', sans-serif
-                    color: map-get($basic, 'white')
+                    color: map-get($basic, 'black')
+                    padding: 5px 0
+                &::before
+                    content: ''
+                    position: absolute
+                    background: map-get($palete, 'primary')
+                    width: 60%
+                    height: 2px
+                    bottom: 0
             .itemsLinks
                 margin-top: 16px
                 display: flex
@@ -34,15 +43,15 @@
                     text-align: center
                 .text
                     font-family: 'Gilroy', sans-serif
-                    color: map-get($basic, 'white')
+                    color: map-get($basic, 'black')
                     font-size: 16px
                 .link
                     font-family: 'Gilroy', sans-serif
-                    color: map-get($basic, 'white')
+                    color: map-get($basic, 'black')
                     text-decoration: none
                     font-size: 16px
     .rights
-        border-top: 1px solid map-get($basic, 'white')
+        border-top: 1px solid map-get($palete, 'primary')
         margin: 30px 0
         display: flex
         justify-content: space-between
@@ -55,4 +64,4 @@
             .text
                 margin-top: 10px
                 font-family: 'Gilroy', sans-serif
-                color: map-get($basic, 'white')
+                color: map-get($basic, 'black')

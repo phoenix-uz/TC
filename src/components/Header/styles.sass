@@ -143,7 +143,6 @@
                         row-gap: 16px
                 .navLink
                     +typography(18px, 500, map-get($basic, 'white'))
-                    text-transform: uppercase
                     text-decoration: none
                     display: inline-block
                     position: relative
@@ -166,6 +165,7 @@
                     transform: translateX(0)
                 .navItem
                     display: inline-block
+                    cursor: pointer
                     .linkToDropDropdown
                         display: block
                         padding: 40px 0
@@ -182,8 +182,8 @@
                         z-index: -1
                         width: 100%
                         max-height: 0
-                        background-color: #54586f82
-                        box-shadow: 0px 0 7px 1px map-get($basic, 'white')
+                        background-color: map-get($palete, 'grayLight')
+                        border: 1px solid map-get($palete, 'primary')
                         opacity: 0
                         transition: opacity .3s, visibility .3s, top .3s
                         padding: 20px
@@ -208,8 +208,7 @@
                                 .navLink
                                     margin-top: 10px
                                     margin-right: 0
-                                    +typography(16px, 500, map-get($basic, 'white'))
-                                    text-transform: uppercase
+                                    +typography(16px, 500, map-get($basic, 'black'))
                                     text-decoration: none
                                     display: inline-block
                                     position: relative
@@ -237,6 +236,20 @@
 .bgBlack
     margin-top: 0
     background: #2c2f3487
+
+.bgWhite
+    background: transparent
+.pagesHeader
+    margin-top: 0
+    background: map-get($palete, 'grayLight')
+    .headerItems
+        .headerItem
+            .nav
+                .navContainer
+                    .navBox
+                        .links
+                            .navLink
+                                color: map-get($basic, 'black')
 .bgBlue
     margin-top: 0
     background: #56586d

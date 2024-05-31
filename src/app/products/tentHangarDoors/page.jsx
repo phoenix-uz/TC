@@ -91,7 +91,7 @@ const PageTentHangarDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tentHangarDoors1.png'
+                src='/tentHangarDoors1.svg'
                 alt='tentHangarDoors1'
                 className='img'
               />
@@ -170,7 +170,7 @@ const PageTentHangarDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tentHangarDoors2.png'
+                src='/tentHangarDoors2.svg'
                 alt='tentHangarDoors2'
                 className='img'
               />
@@ -249,7 +249,7 @@ const PageTentHangarDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tentHangarDoors3.png'
+                src='/tentHangarDoors3.svg'
                 alt='tentHangarDoors3'
                 className='img'
               />
@@ -328,7 +328,7 @@ const PageTentHangarDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tentHangarDoors4.png'
+                src='/tentHangarDoors4.svg'
                 alt='tentHangarDoors4'
                 className='img'
               />
@@ -408,7 +408,7 @@ const PageTentHangarDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tentHangarDoors5.png'
+                src='/tentHangarDoors5.svg'
                 alt='tentHangarDoors5'
                 className='img'
               />
@@ -489,7 +489,7 @@ const PageTentHangarDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tentHangarDoors6.png'
+                src='/tentHangarDoors6.svg'
                 alt='tentHangarDoors6'
                 className='img'
               />
@@ -571,7 +571,7 @@ const PageTentHangarDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tentHangarDoors7.png'
+                src='/tentHangarDoors7.svg'
                 alt='tentHangarDoors7'
                 className='img'
               />
@@ -653,7 +653,7 @@ const PageTentHangarDoors = () => {
               <Image
                 width={100}
                 height={100}
-                src='/tentHangarDoors8.png'
+                src='/tentHangarDoors8.svg'
                 alt='tentHangarDoors8'
                 className='img'
               />

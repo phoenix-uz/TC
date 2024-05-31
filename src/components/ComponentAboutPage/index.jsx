@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect } from "react";
 import AOS from "aos";
+import Image from "next/image";
 import "aos/dist/aos.css";
 import "./styles.sass";
-import Image from "next/image";
 
 const ComponentAboutPage = ({ grayBg, title, firstText, secondText, thirdText, forthText, image }) => {
   useEffect(() => {
@@ -15,7 +15,7 @@ const ComponentAboutPage = ({ grayBg, title, firstText, secondText, thirdText, f
         <div className='componentAboutPageContainer'>
           <div className='componentInfo'>
             <div
-              className='infoTitle'
+              className='sectionTitle'
               data-aos='fade-right'
             >
               <h3 className='title'>{title}</h3>

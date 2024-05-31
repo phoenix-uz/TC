@@ -35,7 +35,7 @@ const PageSectionalAndRoll = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='/imageFirst.png'
+                  src='/imageFirst1.svg'
                   className='img'
                   alt='imageFirst'
                 />
@@ -44,7 +44,7 @@ const PageSectionalAndRoll = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='/imageSecond.png'
+                  src='/imageSecond2.svg'
                   className='img'
                   alt='imageSecond'
                 />
@@ -53,7 +53,7 @@ const PageSectionalAndRoll = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='/imageThird.png'
+                  src='/imageThird3.svg'
                   className='img'
                   alt='imageThird'
                 />
@@ -72,7 +72,7 @@ const PageSectionalAndRoll = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='/imageFirst.png'
+                  src='/imageFirst4.svg'
                   className='img'
                   alt='imageFirst'
                 />
@@ -81,7 +81,7 @@ const PageSectionalAndRoll = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='/imageSecond.png'
+                  src='/imageSecond5.svg'
                   className='img'
                   alt='imageSecond'
                 />
@@ -90,7 +90,7 @@ const PageSectionalAndRoll = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='/imageThird.png'
+                  src='/imageThird6.svg'
                   className='img'
                   alt='imageThird'
                 />
