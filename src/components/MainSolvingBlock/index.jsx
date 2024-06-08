@@ -4,6 +4,8 @@ import Button from "../UI/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles.sass";
+import Image from "next/image";
+import ClientsSlider from "../OurClients/ClientsSlider";
 
 const MainSolvingBlock = () => {
   useEffect(() => {
@@ -33,6 +35,15 @@ const MainSolvingBlock = () => {
             <Button data-aos='fade-right'>Подробнее</Button>
           </div>
           <div className='solvingItems'>
+            <Image
+              src='/imageSolving.svg'
+              alt='imageSolving'
+              width={100}
+              height={100}
+              className='img'
+            />
+          </div>
+          {/* <div className='solvingItems'>
             <div className='itemContainer'>
               <div
                 className='solvingItemText'
@@ -103,9 +114,10 @@ const MainSolvingBlock = () => {
                 <p className='text'>Электронная коммерция (интернет-компании)</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
+      <ClientsSlider />
     </div>
   );
 };

@@ -75,7 +75,7 @@ const SolvingPage = () => {
           </div>
           <div className='item itemFlexEnd'>
             <div
-              className='itemBox itemBoxCol'
+              className='itemBox itemBoxCol imageSolving'
               data-aos='flip-right'
             >
               <Image
@@ -83,7 +83,7 @@ const SolvingPage = () => {
                 height={100}
                 src='/stockImage.svg'
                 alt='stockImage'
-                className='imageReverse'
+                className='imageReverse img'
               />
             </div>
           </div>
@@ -135,7 +135,7 @@ const SolvingPage = () => {
           <div className='item itemFlexEnd'>
             <Link
               href='https://www.youtube.com/watch?v=sPkjq5skZUM'
-              className='itemBox itemBoxCol'
+              className='itemBox itemBoxCol imageSolving'
               data-aos='flip-right'
             >
               <Image
@@ -143,7 +143,7 @@ const SolvingPage = () => {
                 height={100}
                 src='/youtube1.svg'
                 alt='youtube'
-                className='imageReverse'
+                className='imageReverse img'
               />
             </Link>
           </div>

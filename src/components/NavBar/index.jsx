@@ -26,7 +26,7 @@ const NavBar = ({ burgerIsOpen }) => {
             </Link>
             <div className='navItem'>
               <Link
-                className='navLink'
+                className='navLink linkToDropDropdown'
                 href='/solvingPage'
               >
                 Решения
@@ -46,6 +46,8 @@ const NavBar = ({ burgerIsOpen }) => {
                     >
                       Онлайн-коммерция
                     </Link>
+                  </div>
+                  <div className='linksBox'>
                     <Link
                       href='/solvingPage#foodIndustry'
                       className='navLink'
@@ -72,6 +74,8 @@ const NavBar = ({ burgerIsOpen }) => {
                     >
                       Розничная торговля
                     </Link>
+                  </div>
+                  <div className='linksBox'>
                     <Link
                       href='/solvingPage#safety'
                       className='navLink'

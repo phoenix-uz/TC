@@ -3,7 +3,6 @@
 .contactsForm
     padding: 80px 0
     position: relative
-    background: map-get($palete, 'grayLight')
     z-index: 1
     @media screen and (max-width: 1200px)
         padding: 100px 0
@@ -16,12 +15,15 @@
         padding: 50px 0
     .contactsContainer
         width: 50%
+        background: map-get($palete, 'grayLight')
+        padding: 20px
+        border-radius: 10px
         @media screen and (max-width: 1100px)
             width: 100%
         .contactsText
             .contactsTitle
                 .title
-                    +typography(40px, 700, map-get($palete, 'main'))
+                    +typography(32px, 600, map-get($basic, 'balck'))
                     font-family: 'Gilroy', sans-serif
                     @media screen and (max-width: 991px)
                         font-size: 42px

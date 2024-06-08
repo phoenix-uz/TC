@@ -19,25 +19,26 @@ const ProductsSlider = () => {
   return (
     <>
       <Swiper
-        spaceBetween={50}
-        // slidesPerView={6}
-        loop={true}
-        autoplay={{ delay: 100 }}
-        freeMode={true}
-        modules={[Autoplay]}
-        speed={1200}
+        // spaceBetween={50}
+        // // slidesPerView={6}
+        // loop={true}
+        // autoplay={{ delay: 100 }}
+        // freeMode={true}
+        // modules={[Autoplay]}
+        // speed={1200}
+        // className='productsSlider'
         breakpoints={{
-          0: {
+          // 750: {
+          //   slidesPerView: 1,
+          // },
+          // 420: {
+          //   slidesPerView: 2,
+          // },
+          750: {
             slidesPerView: 1,
           },
-          420: {
-            slidesPerView: 2,
-          },
-          577: {
-            slidesPerView: 2,
-          },
           911: {
-            slidesPerView: 3,
+            slidesPerView: 2,
           },
           1100: {
             slidesPerView: 4,

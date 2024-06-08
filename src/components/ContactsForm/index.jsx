@@ -45,7 +45,7 @@ const ContactsForm = () => {
         <div className='contactsContainer'>
           <div className='contactsText'>
             <div className='contactsTitle'>
-              <h2 className='title'>СВЯЖИТЕСЬ С НАМИ</h2>
+              <h2 className='title'>Свяжитесь с нами</h2>
             </div>
           </div>
           <form
