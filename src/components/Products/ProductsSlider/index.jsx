@@ -19,14 +19,14 @@ const ProductsSlider = () => {
   return (
     <>
       <Swiper
-        // spaceBetween={50}
-        // // slidesPerView={6}
-        // loop={true}
-        // autoplay={{ delay: 100 }}
-        // freeMode={true}
-        // modules={[Autoplay]}
-        // speed={1200}
-        // className='productsSlider'
+        spaceBetween={50}
+        // slidesPerView={6}
+        loop={true}
+        autoplay={{ delay: 100 }}
+        freeMode={true}
+        modules={[Autoplay]}
+        speed={1200}
+        className='productsSlider'
         breakpoints={{
           // 750: {
           //   slidesPerView: 1,
