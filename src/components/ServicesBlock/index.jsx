@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import "./styles.sass";
 import "./styles.sass";
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicesBlock = () => {
   useEffect(() => {
@@ -15,6 +16,18 @@ const ServicesBlock = () => {
     <div className='services'>
       <div className=' container'>
         <div className='servicesContainer'>
+          <div className='servicesOverlayContainer'>
+            <div class='textOverlay'>
+              <p className='textPrimary'>Loading Systems</p>
+            </div>
+            <Image
+              width={100}
+              height={100}
+              src='/services2.svg'
+              className='img'
+              alt='servicesImage'
+            />
+          </div>
           <div className='servicesInfo'>
             <div
               className='servicesTitle'
@@ -27,20 +40,14 @@ const ServicesBlock = () => {
               data-aos='fade-right'
             >
               <p className='text'>Сервис и техническое обслуживание</p>
+              <p className='text'>
+                Правильное техническое обслуживание оборудования гарантирует его долгий срок службы и защиту на
+                протяжении всего времени эксплуатации, а также минимизирует риск простоев.
+              </p>
             </div>
-            <Button data-aos='fade-up-right'>Подробнее</Button>
-          </div>
-          <div
-            className='servicesImage'
-            data-aos='fade-up-left'
-          >
-            <Image
-              width={100}
-              height={100}
-              src='/services.svg'
-              className='img'
-              alt='servicesImage'
-            />
+            <Link href='./PageServices'>
+              <Button data-aos='fade-up-right'>Подробнее</Button>
+            </Link>
           </div>
         </div>
       </div>

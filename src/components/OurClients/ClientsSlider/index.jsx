@@ -1,11 +1,13 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "./styles.sass";
 import "swiper/css";
 
 const ClientsSlider = () => {
+  const swiperRef = useRef();
+
   const PartnersSlideImages = [
     { id: 1, img: "/aero.svg", alt: "aero" },
     { id: 2, img: "/airbus.svg", alt: "airbus" },
@@ -18,9 +20,21 @@ const ClientsSlider = () => {
     { id: 9, img: "/Decathlon2.svg", alt: "Decathlon2" },
     { id: 10, img: "/DHL.svg", alt: "DHL" },
   ];
+
+  const handleMouseEnter = () => {
+    swiperRef.current?.swiper?.autoplay?.start();
+  };
+
+  const handleMouseLeave = () => {
+    swiperRef.current?.swiper?.autoplay?.stop();
+  };
   return (
-    <div>
+    <div
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       <Swiper
+        ref={swiperRef}
         spaceBetween={50}
         slidesPerView={6}
         loop={true}

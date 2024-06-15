@@ -21,11 +21,12 @@ const Header = ({ bgBlack }) => {
 
   const pathName = usePathname();
   return (
-    <header
-      className={`header  ${burgerIsOpen ? "white" : ""} ${scroll ? "bgBlack" : "bgWhite"} ${
-        pathName != "/" && "pagesHeader"
-      } `}
-    >
+    // <header
+    //   className={`header  ${burgerIsOpen ? "white" : ""} ${scroll ? "bgBlack" : "bgWhite"} ${
+    //     pathName != "/" && "pagesHeader"
+    //   } `}
+    // >
+    <header className={`header  ${burgerIsOpen ? "white" : ""}  `}>
       <div className=' container'>
         <div className='headerItems'>
           <div className='headerItem'>
@@ -35,7 +36,7 @@ const Header = ({ bgBlack }) => {
             >
               {pathName == "/" ? (
                 <Image
-                  src='/whiteLogoSvg.svg'
+                  src='/logoBlack.svg'
                   alt='loadingLogo'
                   className='logo'
                   width={50}

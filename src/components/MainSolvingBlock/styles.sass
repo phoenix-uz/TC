@@ -1,71 +1,169 @@
 @import '../../styles/_variables'
 @import '../../styles/_typography'
+$optionDefaultColours: #ED5565,#FC6E51,#FFCE54,#2ECC71,#5D9CEC,#AC92EC
 .mainSolvingBlock
     background: map-get($palete, 'grayLight')
     padding: 50px 0
-    .clientsSlider
-        padding-top: 50px
+    // .clientsSlider
+    //     padding-top: 50px
+    // .mainSolvingBlockContainer
+    //     display: flex
+    //     width: 100%
+    //     justify-content: space-between
+    //     align-items: center
+    //     column-gap: 50px
+    //     @media screen and (max-width: 1100px)
+    //         align-items: flex-end
+    //     @media screen and (max-width: 991px)
+    //         flex-direction: column
+    //         row-gap: 20px
+    //     .solvingInfo
+    //         display: flex
+    //         flex-direction: column
+    //         row-gap: 30px
+    //         width: 50%
+    //         .infoTitle
+    //             .title
+    //                 font-family: 'Gilroy', sans-serif
+    //                 +typography(32px, 600, map-get($basic, 'balck'))
+    //         .infoText
+    //             .text
+    //                 +typography(16px, 300, map-get($palete, 'textBlack'))
+    //                 line-height: 28px
+    //         .servicesBtn
+    //             .btn
+    //                 width: 50%
+    //     .solvingItems
+    //         width: 50%
+    //         position: relative
+    //         display: flex
+    //         flex-wrap: wrap
+    //         justify-content: center
+    //         align-items: center
+    //         .solvingCard
+    //             position: relative
+    //             overflow: hidden
+    //             margin: 0 -60px
+    //             clip-path: polygon(50% 100%, 0 0, 100% 0)
+    //             &:nth-child(2)
+    //                 clip-path: polygon(50% 0%, 0% 100%, 100% 100%)
+    //             .img
+    //                 // width: 100%
+    //                 width: 250px
+    //                 height: 100%
+    //                 transition: 0.5s ease
+    //             &:hover
+    //                 .img
+    //                     transform: scale(1.5)
     .mainSolvingBlockContainer
         display: flex
-        width: 100%
+        flex-direction: row
+        justify-content: center
         justify-content: space-between
         align-items: center
-        column-gap: 50px
-        @media screen and (max-width: 1100px)
-            align-items: flex-end
-        @media screen and (max-width: 991px)
-            flex-direction: column
-            row-gap: 20px
-        .solvingInfo,
-        .solvingItems
-            width: 100%
-        .solvingInfo
+        column-gap: 40px
+        .sectionTitle
+            .text
+                line-height: 2
+                +typography(16px, 500, map-get($basic, 'black'))
+            .primary
+                +typography(20px, 600, map-get($palete, 'primary'))
+        .ourWorksSlider
+            padding-top: 50px
             display: flex
-            flex-direction: column
-            row-gap: 30px
-            .infoTitle
-                .title
-                    font-family: 'Gilroy', sans-serif
-                    +typography(32px, 600, map-get($basic, 'balck'))
-            .infoText
-                .text
-                    +typography(16px, 300, map-get($palete, 'textBlack'))
-                    line-height: 28px
-        .solvingItems
-            display: flex
-            flex-direction: column
-            row-gap: 10px
-            .img
-                width: 100%
-                height: 100%
-                border-radius: 6px
-            // .itemContainer
+            justify-content: center
+            .options
                 display: flex
-                column-gap: 10px
-                @media screen and (max-width: 520px)
-                    flex-direction: column
-                    row-gap: 10px
-                .solvingItemText
-                    background: #E8E8E8
-                    color: map-get($basic, 'black')
-                    border-radius: 6px
-                    padding: 5px 10px
-                    text-align: center
-                    max-width: 290px
-                    width: 100%
-                    display: flex
-                    justify-content: center
-                    transition: all 0.5s ease
+                flex-direction: row
+                align-items: stretch
+                overflow: hidden
+                min-width: 600px
+                max-width: 900px
+                width: calc(100% - 100px)
+                height: 400px
+                @for $i from 1 through 4
+                    @media screen and (max-width:798px - $i*80)
+                        min-width: 600px - $i*80
+                        .option:nth-child(#{6-$i})
+                            display: none
+                .option
+                    position: relative
+                    overflow: hidden
+                    min-width: 60px
+                    margin: 10px
+                    background: var(--optionBackground, var(--defaultBackground, #E6E9ED))
+                    background-size: auto 120%
+                    background-position: center
                     cursor: pointer
-                    @media screen and (max-width: 991px)
-                        max-width: 100%
-                    .text
+                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95)
+                    @for $i from 1 through length($optionDefaultColours)
+                        &:nth-child(#{$i})
+                            --defaultBackground: #{nth($optionDefaultColours, $i)}
+                    &.active
+                        flex-grow: 10000
+                        transform: scale(1)
+                        max-width: 600px
+                        margin: 0px
+                        border-radius: 40px
+                        background-size: auto 100%
+                        .shadow
+                            box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black
+                        .label
+                            bottom: 20px
+                            left: 20px
+                            .info >div
+                                left: 0px
+                                opacity: 1
+                    &:not(.active)
+                        flex-grow: 1
+                        border-radius: 30px
+                        .shadow
+                            bottom: -40px
+                            box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black
+                        .label
+                            bottom: 10px
+                            left: 10px
+                            .info >div
+                                left: 20px
+                                opacity: 0
+                    .shadow
+                        position: absolute
+                        bottom: 0px
+                        left: 0px
+                        right: 0px
+                        height: 120px
+                        transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95)
+                    .label
                         display: flex
-                        align-items: center
-                        transition: all 0.5s ease
-                        font-family: 'Gilroy', sans-serif
-                        +typography(18px, 400, map-get($basic, black))
-                    &:hover
-                        background: map-get($palete, 'primary')
-                        .text
-                            color: map-get($basic, 'white')
+                        position: absolute
+                        right: 0px
+                        height: 40px
+                        transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95)
+                        .icon
+                            display: flex
+                            flex-direction: row
+                            justify-content: center
+                            align-items: center
+                            min-width: 40px
+                            max-width: 40px
+                            height: 40px
+                            border-radius: 100%
+                            background-color: map-get($palete, 'primary')
+                            color: var(--defaultBackground)
+                            .iconNumber
+                                color: map-get($basic, 'white')
+                        .info
+                            display: flex
+                            flex-direction: column
+                            justify-content: center
+                            margin-left: 10px
+                            color: white
+                            white-space: pre
+                            >div
+                                position: relative
+
+                                transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity .5s ease-out
+                            .main
+                                +typography(14px, 400, map-get($basic, 'white'))
+                            .sub
+                                transition-delay: .1s

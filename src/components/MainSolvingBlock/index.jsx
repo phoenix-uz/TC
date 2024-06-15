@@ -1,123 +1,97 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../UI/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles.sass";
 import Image from "next/image";
 import ClientsSlider from "../OurClients/ClientsSlider";
+import Link from "next/link";
 
 const MainSolvingBlock = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+  const optionsData = [
+    {
+      background: "/imageSolving.svg",
+      icon: "1",
+      main: "Логистика",
+      // sub: "Omuke trughte a otufta",
+      active: true,
+    },
+    {
+      background: "/stockImage.svg",
+      icon: "2",
+      main: "Фармацевтика",
+      // sub: "Omuke trughte a otufta",
+      active: false,
+    },
+    {
+      background: "/car.svg",
+      icon: "3",
+      main: "Безопасность",
+      // sub: "Omuke trughte a otufta",
+      active: false,
+    },
+    {
+      background: "/industry.svg",
+      icon: "4",
+      main: "Розничная торговля",
+      // sub: "Omuke trughte a otufta",
+      active: false,
+    },
+    {
+      background: "/Sealer.svg",
+      icon: "5",
+      main: "Пищевая промышленность",
+      // sub: "Omuke trughte a otufta",
+      active: false,
+    },
+  ];
+
+  const handleClick = (index) => {
+    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div className='mainSolvingBlock'>
-      <div className='container'>
+      <div class='container'>
         <div className='mainSolvingBlockContainer'>
-          <div className='solvingInfo'>
-            <div
-              className='infoTitle'
-              data-aos='fade-right'
-            >
-              <h2 className='title'>Решения</h2>
-            </div>
-            <div
-              className='infoText'
-              data-aos='fade-right'
-            >
-              <p className='text'>
-                Loading Systems - эксперты в разработке, производстве, установке и обслуживании промышленных доков и
-                стыковочного оборудования. Наш опыт более 50 лет гарантирует предоставление индивидуальных решений,
-                соответствующих уникальным потребностям разнообразных клиентов в различных отраслях.
-              </p>
-            </div>
-            <Button data-aos='fade-right'>Подробнее</Button>
+          <div className='sectionTitle'>
+            <h3 className='title'>Решения</h3>
+            <p className='text'>
+              <span className='primary'>Loading Systems - </span>
+              эксперты в разработке, производстве, установке и обслуживании промышленных доков и стыковочного
+              оборудования. Наш опыт более 50 лет гарантирует предоставление индивидуальных решений, соответствующих
+              уникальным потребностям разнообразных клиентов в различных отраслях.
+            </p>
           </div>
-          <div className='solvingItems'>
-            <Image
-              src='/imageSolving.svg'
-              alt='imageSolving'
-              width={100}
-              height={100}
-              className='img'
-            />
+          <div className='ourWorksSlider'>
+            <div className='options'>
+              {optionsData.map((option, index) => (
+                <div
+                  key={index}
+                  className={`option  ${activeIndex == index ? "active" : ""}`}
+                  onClick={() => handleClick(index)}
+                  style={{ "--optionBackground": `url(${option.background})` }}
+                >
+                  <div className='shadow'></div>
+                  <div className='label'>
+                    <div className='icon'>
+                      <p className='iconNumber'>{option.icon}</p>
+                    </div>
+                    <div className='info'>
+                      <div className='main'>{option.main}</div>
+                      <div className='sub'>{option.sub}</div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-          {/* <div className='solvingItems'>
-            <div className='itemContainer'>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'>Складские здания с температурным режимом</p>
-              </div>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'> Автомобильная промышленность</p>
-              </div>
-            </div>
-            <div className='itemContainer'>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'> Авиационная индустрия</p>
-              </div>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'>Пищевая промышленность</p>
-              </div>
-            </div>
-            <div className='itemContainer'>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'> Логистика</p>
-              </div>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'>Фармацевтика </p>
-              </div>
-            </div>
-            <div className='itemContainer'>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'> Розничная торговля</p>
-              </div>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'>Заводы и фабрики</p>
-              </div>
-            </div>
-            <div className='itemContainer'>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'>Безопасность</p>
-              </div>
-              <div
-                className='solvingItemText'
-                data-aos='fade-left'
-              >
-                <p className='text'>Электронная коммерция (интернет-компании)</p>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
-      <ClientsSlider />
     </div>
   );
 };

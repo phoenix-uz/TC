@@ -198,7 +198,7 @@ const SolvingPage = () => {
                 </div>
               </div>
               <div
-                className='itemBox itemBoxCol'
+                className='itemBox itemBoxCol imageSolving'
                 data-aos='flip-right'
               >
                 <Image
@@ -206,7 +206,7 @@ const SolvingPage = () => {
                   height={100}
                   src='/car.svg'
                   alt=''
-                  className='imageReverse'
+                  className='imageReverse img'
                 />
               </div>
             </div>
@@ -249,7 +249,7 @@ const SolvingPage = () => {
                 </div>
               </div>
               <div
-                className='itemBox itemBoxCol'
+                className='itemBox itemBoxCol imageSolving'
                 data-aos='flip-right'
               >
                 <Image
@@ -257,7 +257,7 @@ const SolvingPage = () => {
                   height={100}
                   src='/bmwImage.svg'
                   alt='bmwImage'
-                  className='imageReverse'
+                  className='imageReverse img'
                 />
               </div>
             </div>
@@ -376,7 +376,7 @@ const SolvingPage = () => {
             </div>
           </div>
           <div
-            className='itemContentImage'
+            className='itemContentImage imageSolving'
             data-aos='flip-right'
           >
             <Image
@@ -384,7 +384,7 @@ const SolvingPage = () => {
               height={100}
               src='/docleLeveller.svg'
               alt='docleLeveller'
-              className='imageReverse'
+              className='imageReverse img'
             />
           </div>
         </ComponentDivider>
@@ -434,7 +434,7 @@ const SolvingPage = () => {
             </div>
           </div>
           <div
-            className='itemContentImage'
+            className='itemContentImage imageSolving'
             data-aos='flip-right'
           >
             <Image
@@ -442,7 +442,7 @@ const SolvingPage = () => {
               height={100}
               src='/VanDock.svg'
               alt='VanDock'
-              className='imageReverse'
+              className='imageReverse img'
             />
           </div>
         </ComponentDivider>
@@ -471,7 +471,7 @@ const SolvingPage = () => {
             </div>
           </div>
           <div
-            className='itemContentImage'
+            className='itemContentImage imageSolving'
             data-aos='flip-right'
           >
             <Image
@@ -479,7 +479,7 @@ const SolvingPage = () => {
               height={100}
               src='/industry.svg'
               alt='industry'
-              className='imageReverse'
+              className='imageReverse img'
             />
           </div>
         </ComponentDivider>
@@ -506,7 +506,7 @@ const SolvingPage = () => {
             </div>
           </div>
           <div
-            className='itemContentImage'
+            className='itemContentImage imageSolving'
             data-aos='flip-right'
           >
             <Image
@@ -514,7 +514,7 @@ const SolvingPage = () => {
               height={100}
               src='/Sealer.svg'
               alt='Sealer'
-              className='imageReverse'
+              className='imageReverse img'
             />
           </div>
         </ComponentDivider>
@@ -542,7 +542,7 @@ const SolvingPage = () => {
             </div>
           </div>
           <div
-            className='itemContentImage'
+            className='itemContentImage imageSolving'
             data-aos='flip-right'
           >
             <Image
@@ -550,7 +550,7 @@ const SolvingPage = () => {
               height={100}
               src='/Sealer2.svg'
               alt='Sealer2'
-              className='imageReverse'
+              className='imageReverse img'
             />
           </div>
         </ComponentDivider>
@@ -749,7 +749,7 @@ const SolvingPage = () => {
           </div>
           <div className='item itemFlexEnd'>
             <div
-              className='itemBox itemBoxCol'
+              className='itemBox itemBoxCol imageSolving'
               data-aos='flip-right'
             >
               <Image
@@ -757,7 +757,7 @@ const SolvingPage = () => {
                 height={100}
                 src='/youtube1.svg'
                 alt='youtube'
-                className='imageReverse'
+                className='imageReverse img'
               />
             </div>
           </div>
@@ -790,18 +790,19 @@ const SolvingPage = () => {
           <div className='item '>
             <div className='imageContainer'>
               <div
-                className='imageBox'
-                data-aos='flip-right'
+                className='imageBox imageSolving'
+                data-aos='flip-right '
               >
                 <Image
                   width={100}
                   height={100}
                   src='/decathlon.svg'
                   alt='decathlon'
+                  className='img'
                 />
               </div>
               <div
-                className='imageBox'
+                className='imageBox imageSolving'
                 data-aos='flip-left'
               >
                 <Image
@@ -813,7 +814,7 @@ const SolvingPage = () => {
                 />
               </div>
               <div
-                className='imageBox'
+                className='imageBox imageSolving'
                 data-aos='flip-right'
               >
                 <Image
@@ -877,7 +878,7 @@ const SolvingPage = () => {
               </div>
               <Link
                 href='https://www.youtube.com/watch?v=sPkjq5skZUM'
-                className='itemBox itemBoxCol'
+                className='itemBox itemBoxCol imageSolving'
                 data-aos='flip-right'
               >
                 <Image
@@ -885,7 +886,7 @@ const SolvingPage = () => {
                   height={100}
                   src='/youtube1.svg'
                   alt='youtube'
-                  className='imageReverse'
+                  className='imageReverse img'
                 />
               </Link>
             </div>

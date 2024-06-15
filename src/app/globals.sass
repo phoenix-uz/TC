@@ -56,17 +56,17 @@ h6
   .title
     font-family: 'Gilroy', sans-serif
     +typography(32px, 700, map-get($basic, 'balck'))
-    padding: 3px 0
+    padding: 10px 0
     @media screen and (max-width: 850px)
       font-size: 32px
       @media screen and (max-width: 420px)
         font-size: 24px
-  &::after
-    content: ''
-    width: 100%
-    height: 2px
-    background: map-get($palete, 'primary')
-    position: absolute
+  // &::after
+  //   content: ''
+  //   width: 100%
+  //   height: 2px
+  //   background: map-get($palete, 'primary')
+  //   position: absolute
 .secondaryTitle
   position: relative
   margin-top: 10px
@@ -150,8 +150,10 @@ p,
         border-bottom: 1px solid map-get($palete, 'secondaryLight')
 
 .imageSolving
-  min-width: 350px
-  min-height: 350px
+  max-width: 350px
+  max-height: 350px
+  // width: 100%
+  // height: 100%
   .img
     width: 100%
     height: 100%

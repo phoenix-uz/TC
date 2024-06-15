@@ -9,14 +9,17 @@
     .servicesContainer
         display: flex
         justify-content: space-between
+        align-items: center
+        column-gap: 30px
+        width: 100%
         @media screen and (max-width: 850px)
             flex-direction: column
             row-gap: 20px
         .servicesInfo
             display: flex
             flex-direction: column
-            row-gap: 80px
-            width: 50%
+            row-gap: 20px
+            width: 100%
             @media screen and (max-width: 1250px)
                 row-gap: 0
             @media screen and (max-width: 991px)
@@ -31,19 +34,43 @@
                         font-size: 32px
             .servicesText
                 .text
-                    +typography(24px, 600, map-get($palete, 'main'))
+                    +typography(20px, 500, map-get($palete, 'main'))
                     @media screen and (max-width: 991px)
                         font-size: 18px
             .btn
-                width: 40%
+                width: 50%
                 @media screen and (max-width: 420px)
                     width: 100%
-        .servicesImage
+        // .servicesImage
+        //     width: 50%
+        //     transition: all 0.5s ease
+        //     // clip-path: polygon(61% 1%, 0 0, 0 100%, 64% 100%, 100% 49%)
+        //     .img
+        //         height: 100%
+        //         width: 100%
+        //         filter: grayscale(1)
+        //         transition: all 0.5s ease
+        //         cursor: pointer
+        //         &:hover
+        //             filter: none
+        .servicesOverlayContainer
+            position: relative
+            text-align: right
+            color: white
+            width: 100%
+            .textOverlay
+                position: absolute
+                top: 0
+                // right: 0
+                left: 0
+                margin: auto
+                background: rgb(249 249 249)
+                padding: 20px
+                max-width: 300px
+                .textPrimary
+                    text-align: center
+                    +typography(20px, 600, map-get($palete, 'primary'))
             .img
-                height: 100%
                 width: 100%
-                filter: grayscale(1)
-                transition: all 0.5s ease
-                cursor: pointer
-                &:hover
-                    filter: none
+                height: auto
+                display: block
